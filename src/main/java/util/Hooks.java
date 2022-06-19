@@ -25,7 +25,6 @@ public class Hooks {
         properties = ConfigReader.initialize_Properties();
         driver = DriverFactory.initialize_Driver(browser);
     }
-
     @BeforeStep
     public void beforeStep() {
     }
