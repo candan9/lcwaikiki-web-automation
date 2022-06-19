@@ -12,15 +12,15 @@ public class Hooks {
     @Before
     public void before() {
         Log4j.startLog();
-        String browser="";
-        try{
-            browser = Reporter.getCurrentTestResult().getTestContext().getCurrentXmlTest().getParameter("browser");
+       /* String browser="";
+        try{*/
+          String  browser = Reporter.getCurrentTestResult().getTestContext().getCurrentXmlTest().getParameter("browser");
 
-        }catch (Exception e){
+        /*}catch (Exception e){
         }
         if(browser==null){
             browser="Chrome";
-        }
+        }*/
 
         properties = ConfigReader.initialize_Properties();
         driver = DriverFactory.initialize_Driver(browser);

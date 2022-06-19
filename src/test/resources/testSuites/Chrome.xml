@@ -2,7 +2,7 @@
 
 <suite name="LCWaikiki SUITE" verbose="1" >
     <parameter name="browser"  value="Chrome"/>
-    <test name="Cart Page">
+    <test name="e2e make order test">
         <classes>
             <class name="testRunners.runner"/>
         </classes>
