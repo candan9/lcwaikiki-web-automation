@@ -11,7 +11,7 @@ public class ProductPage {
     By section_color_filter = By.className("collapsible-filter-container__content-area--color-filter");
     By btn_color_option = By.className("color-filter-option__text");
     By img_product = By.className("product-image__image");
-    By description_product  = By.className("product-card__title");
+    By code_product  = By.cssSelector(".col-xs-7 > div:nth-child(1)");
     By size_product = By.cssSelector(".option-size a");
     By add_to_basket = By.id("pd_add_to_cart");
     WebDriver driver;
@@ -37,8 +37,11 @@ public class ProductPage {
     public void clickProduct() {
         elementHelper.findFirstElement(img_product).click();
     }
-    public String getProductDescription() {
-       return elementHelper.findFirstElement(description_product).getText();
+    public String getProductCode() {
+        elementHelper.checkElementVisible(code_product);
+        System.out.println("in function value "+ elementHelper.getText(code_product));
+
+       return elementHelper.findFirstElement(code_product).getText();
     }
     public void selectProductSize(String size) {
         elementHelper.clickElementWithText(size_product,size);

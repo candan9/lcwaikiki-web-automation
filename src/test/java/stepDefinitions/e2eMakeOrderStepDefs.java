@@ -10,22 +10,12 @@ import util.DriverFactory;
 
 public class e2eMakeOrderStepDefs {
 
-    String productDescription;
+    String productCode="";
     LoginPage loginPage = new LoginPage(DriverFactory.getDriver());
     HomePage homePage = new HomePage(DriverFactory.getDriver());
-    CategoryPage categoryPage = new CategoryPage(DriverFactory.getDriver());
     ProductPage productPage = new ProductPage(DriverFactory.getDriver());
     CartPage cartPage= new CartPage(DriverFactory.getDriver());
     PaymentPage paymentPage= new PaymentPage(DriverFactory.getDriver());
-    @Given("user is opened LcWaikiki App")
-    public void userIsOpenedLcWaikikiApp() {
-        homePage.checkHomePage();
-    }
-
-    @When("click Skip button")
-    public void clickSkipButton() {
-        homePage.clickSkipButton();
-    }
 
     @Then("should see {string} title next")
     public void shouldSeeTitleNext(String title) {
@@ -34,16 +24,6 @@ public class e2eMakeOrderStepDefs {
     @And("click login button")
     public void clickLoginButton() {
         loginPage.clickLogin();
-    }
-
-    @Then("see email error {string}")
-    public void seeEmailError(String errorMessage) {
-        loginPage.assertEmailError(errorMessage);
-    }
-
-    @And("see password error {string}")
-    public void seePasswordError(String errorMessage) {
-        loginPage.assertPasswordError(errorMessage);
     }
 
     @And("type {string} in password input")
@@ -56,25 +36,9 @@ public class e2eMakeOrderStepDefs {
         loginPage.typeEmail(email);
     }
 
-    @When("click {string} button")
-    public void clickButton(String tabName) {
-        homePage.clickTab(tabName);
-    }
-
-    @And("left empty fields")
-    public void leftEmptyFields() {
-        loginPage.leftEmptyFields();
-    }
-
-    @When("left password field empty")
-    public void leftPasswordFieldEmpty() {
-        loginPage.leftPasswordEmpty();
-    }
-
     @Then("user see logged in that {string} on top of page")
-    public void userSeeLoggedInThatOnTopOfPage(String name) {
-        String welcomeLabel = homePage.checkUserLoggedIn();
-        Assert.assertTrue(welcomeLabel.contains(name));
+    public void userSeeLoggedInThatOnTopOfPage(String myAccount) {
+        homePage.checkUserLoggedIn(myAccount);
     }
 
     @When("focus {string} category")
@@ -92,15 +56,11 @@ public class e2eMakeOrderStepDefs {
         productPage.productsListed();
     }
 
-    @When("click {string} tab")
-    public void clickTab(String tabName) {
-        homePage.clickTab(tabName);
-    }
-
     @When("click a product")
     public void clickAProduct() {
         productPage.clickProduct();
-        productDescription = productPage.getProductDescription();
+        productCode = productPage.getProductCode();
+        System.out.println("Feature value"+productCode);
     }
 
     @And("click add to basket")
@@ -119,62 +79,39 @@ public class e2eMakeOrderStepDefs {
         productPage.selectColor(colorName);
     }
 
-    @And("click filter button")
-    public void clickFilterButton() {
-        productPage.showFilters();
-    }
-
-    @And("click {string} filter")
-    public void clickFilter(String filterName) {
-        productPage.clickColorFilter(filterName);
-    }
-
-    @And("click color filter")
-    public void clickColorFilter() {
-        productPage.applyColorFilter();
-    }
-
-    @And("click apply filter")
-    public void clickApplyFilter() {
-        productPage.applyFilter();
-    }
-
-    @And("close product detail")
-    public void closeProductDetail() {
-        productPage.closeProduct();
-    }
-
     @And("go to cart")
     public void goToCart() {
         homePage.goToCart();
     }
 
-    @Then("user verifies that product information is correct on cart")
-    public void userVerifiesThatProductInformationIsCorrectOnCart() {
-        cartPage.checkProductInformations(productDescription,"1","M");
-    }
-
     @When("go to payment phase")
     public void goToPaymentPhase() {
         cartPage.goToPayment();
-        paymentPage.clickDeliveryAddress();
-
     }
     @Then("user should see payment screen")
     public void userShouldSeePaymentScreen() {
-        paymentPage.hidePaymentTypes();
-        paymentPage.showPaymentTypes();
+        paymentPage.clickDeliveryAddress();
         paymentPage.clickPayWithCreditCard();
-        paymentPage.checkNameInputAppear();
-        paymentPage.checkCardNumberInputAppear();
-        paymentPage.checkCardMonthInputAppear();
-        paymentPage.checkCardYearInputAppear();
-        paymentPage.checkCvvInputAppear();
-
+        paymentPage.creditCardModalAppear();
+        paymentPage.nameInputAppear();
+        paymentPage.cardNumberInputAppear();
+        paymentPage.monthSelectAppear();
+        paymentPage.yearSelectAppear();
+        paymentPage.cvvInputAppear();
     }
     @When("click {string} button to navigate login page")
     public void clickButtonToNavigateLoginPage(String loginButton) {
-        homePage.focusLogin(loginButton);
         homePage.clickGoToLogin(loginButton);
+    }
+
+    @Then("user verifies that product information,product code,{string},{string} , is correct on cart")
+    public void userVerifiesThatProductInformationProductCodeIsCorrectOnCart(String count, String size) {
+        cartPage.checkProductInformations(productCode,count,size);
+    }
+
+    @Given("user is opened LcWaikiki Website")
+    public void userIsOpenedLcWaikikiWebsite() {
+        homePage.checkHomePage();
+        homePage.acceptCookies();
     }
 }

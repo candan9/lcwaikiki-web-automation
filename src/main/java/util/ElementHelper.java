@@ -1,10 +1,8 @@
 package util;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -19,7 +17,7 @@ public class ElementHelper {
 
     public ElementHelper(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, 10);
+        this.wait = new WebDriverWait(driver, 20);
         this.action = new Actions(driver);
     }
 
@@ -47,9 +45,29 @@ public class ElementHelper {
      * @param key
      */
     public void click(By key) {
-        findElement(key).click();
+        //findElement(key).click();
+        StaleElementHandleByClassName(key);
     }
-
+    public void StaleElementHandleByClassName (By key)
+    {
+        int count = 0;
+        boolean clicked = false;
+        while (count < 4 && !clicked)
+        {
+            try
+            {
+                WebElement yourSlipperyElement= driver.findElement(key);
+                yourSlipperyElement.click();
+                clicked = true;
+            }
+            catch (StaleElementReferenceException e)
+            {
+                e.toString();
+                System.out.println("Trying to recover from a stale element :" + e.getMessage());
+                count = count+1;
+            }
+        }
+    }
     /**
      * @param key
      * @param text
@@ -79,7 +97,7 @@ public class ElementHelper {
      * @param key
      */
     public void checkElementVisible(By key) {
-        wait.until(ExpectedConditions.visibilityOf(findElement(key)));
+        wait.until(ExpectedConditions.elementToBeClickable(findElement(key)));
     }
 
     /**
@@ -140,15 +158,14 @@ public class ElementHelper {
      * @param text
      */
     public void checkElementWithText(By key, String text) {
-        boolean find = false;
         List<WebElement> elements = findElements(key);
         for (WebElement element : elements) {
             if (element.getText().equals(text)) {
-                find = true;
-                break;
+                presenceElement(key);
+                return;
             }
         }
-        Assert.assertEquals(true, find);
+
     }
 
     /**
@@ -157,17 +174,19 @@ public class ElementHelper {
      * @param text
      */
     public void focusElementWithText(By key, String text) {
-        boolean find = false;
+        boolean find=false;
         List<WebElement> elements = findElements(key);
         for (WebElement element : elements) {
-            if (element.getText().equals(text)) {
-                new Actions(driver).moveToElement(findElement(key)).perform();
-                find = true;
+            if (element.getText().equals(text)&&find==false) {
+                presenceElement(key);
+                action.moveToElement(element).build().perform();
+                find=true;
                 break;
             }
         }
-        Assert.assertEquals(true, find);
+        Assert.assertTrue(find);
     }
+
     /**
      * @param key
      * @param text
@@ -217,6 +236,7 @@ public class ElementHelper {
      */
     public List<WebElement> presenceElements(By key) {
         return wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(key));
+
     }
 
     /**
