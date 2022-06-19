@@ -2464,3 +2464,4 @@ The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoa
 	... 56 more
 2022-06-19 23:50:08 INFO  Log4j:19 - checking visiblity of By.cssSelector: .col-xs-7 > div:nth-child(1) element
 2022-06-19 23:50:08 INFO  Log4j:19 - wait to presence element which By.cssSelector: .col-xs-7 > div:nth-child(1)
+2022-06-19 23:50:28 INFO  Log4j:14 - Test is Ending...
