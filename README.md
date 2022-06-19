@@ -20,9 +20,9 @@ kontrol edilecek.
 
 # Test Koşması
 
-Testler "resources/testSuites/Chrome.xml" dosyasını çalıştırarak tetiklenir.
-Testler "resources/testSuites/Parallel.xml" dosyasını çalıştırarak tetiklenir.
-Ayrıca ayrı ayrı feature dosyalarından ve test runner üzerinden de çalıştırılabilir.
+Testler "resources/testSuites/Chrome.xml" dosyasını çalıştırarak tetiklenir.  
+Testler "resources/testSuites/Parallel.xml" dosyasını çalıştırarak tetiklenir.  
+Ayrıca ayrı ayrı feature dosyalarından ve test runner üzerinden de çalıştırılabilir.  
 
 
 Proje paralel koşumu desteklemektedir(Chrome,Firefox).
