@@ -21,7 +21,7 @@ public class e2eMakeOrderStepDefs {
     }
     @And("click login button")
     public void clickLoginButton() {
-        loginPage.clickLogin();
+        //loginPage.clickLogin();
     }
 
     @And("type {string} in password input")

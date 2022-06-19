@@ -2,7 +2,6 @@ package util;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -26,8 +25,10 @@ public class ElementHelper {
      * @return
      */
     public WebElement findElement(By key) {
+
         WebElement element = presenceElement(key);
         scrollToElement(element);
+        Log4j.info("finding"+key.toString());
         return element;
     }
 
@@ -36,6 +37,7 @@ public class ElementHelper {
      * @return
      */
     public List<WebElement> findElements(By key) {
+        Log4j.info("finding"+key.toString());
         List<WebElement> elements = presenceElements(key);
         scrollToElement(elements.get(0));
         return elements;
@@ -46,6 +48,7 @@ public class ElementHelper {
      */
     public void click(By key) {
         //findElement(key).click();
+        Log4j.info("clicking"+key.toString());
         StaleElementHandleByClassName(key);
     }
     public void StaleElementHandleByClassName (By key)
@@ -73,6 +76,7 @@ public class ElementHelper {
      * @param text
      */
     public void sendKey(By key, String text) {
+        Log4j.info("typing "+text+" into "+key.toString());
         findElement(key).sendKeys(text);
     }
 
@@ -81,6 +85,7 @@ public class ElementHelper {
      * @return
      */
     public String getText(By key) {
+        Log4j.info("getting "+key.toString()+" text");
         return findElement(key).getText();
     }
 
@@ -90,6 +95,7 @@ public class ElementHelper {
      * @return
      */
     public boolean checkElementText(By key, String text) {
+        Log4j.info("checking text of "+key.toString()+" element");
         return wait.until(ExpectedConditions.textToBe(key, text));
     }
 
@@ -97,6 +103,7 @@ public class ElementHelper {
      * @param key
      */
     public void checkElementVisible(By key) {
+        Log4j.info("checking visiblity of "+key.toString()+" element");
         wait.until(ExpectedConditions.elementToBeClickable(findElement(key)));
     }
 
@@ -124,6 +131,7 @@ public class ElementHelper {
      * @return
      */
     public String getAttribute(By key, String attr) {
+        Log4j.info("getting attribute of "+key.toString());
         return findElement(key).getAttribute(attr);
     }
 
@@ -133,6 +141,7 @@ public class ElementHelper {
      * @param text
      */
     public void checkAttribute(By key, String attr, String text) {
+        Log4j.info("checking attribute of "+key.toString());
         Assert.assertEquals(getAttribute(key, attr), text);
     }
 
@@ -141,6 +150,7 @@ public class ElementHelper {
      * @param text
      */
     public void clickElementWithText(By key, String text) {
+        Log4j.info("clicking element "+key.toString()+"with "+text);
         boolean find = false;
         List<WebElement> elements = findElements(key);
         for (WebElement element : elements) {
@@ -150,6 +160,9 @@ public class ElementHelper {
                 break;
             }
         }
+        if(find==false){
+            Log4j.error("element no found");
+        }
         Assert.assertEquals(true, find);
     }
 
@@ -158,6 +171,7 @@ public class ElementHelper {
      * @param text
      */
     public void checkElementWithText(By key, String text) {
+        Log4j.info("checking element "+key.toString()+"with "+text);
         List<WebElement> elements = findElements(key);
         for (WebElement element : elements) {
             if (element.getText().equals(text)) {
@@ -173,6 +187,7 @@ public class ElementHelper {
      * @param text
      */
     public void focusElementWithText(By key, String text) {
+        Log4j.info("focusing element "+key.toString()+"with "+text);
         boolean find=false;
         List<WebElement> elements = findElements(key);
         for (WebElement element : elements) {
@@ -182,6 +197,9 @@ public class ElementHelper {
                 find=true;
                 break;
             }
+        }
+        if(find==false){
+            Log4j.error("element no found");
         }
         Assert.assertTrue(find);
     }
@@ -209,6 +227,7 @@ public class ElementHelper {
      * @return
      */
     public WebElement presenceElement(By key) {
+        Log4j.info("wait to presence element which "+key.toString());
         return wait.until(ExpectedConditions.presenceOfElementLocated(key));
     }
 
@@ -218,6 +237,7 @@ public class ElementHelper {
      * @return
      */
     public void focusElement(By key) {
+        Log4j.info("focusing element "+key.toString());
         new Actions(driver).moveToElement(findElement(key)).perform();
     }
     /**
@@ -225,6 +245,7 @@ public class ElementHelper {
      @return
      */
     public WebElement findFirstElement(By key) {
+        Log4j.info("finding first element of "+key.toString());
         List<WebElement> elements = presenceElements(key);
         WebElement element = elements.get(0);
         return element;
@@ -234,14 +255,15 @@ public class ElementHelper {
      * @return
      */
     public List<WebElement> presenceElements(By key) {
+        Log4j.info("wait to presence elements list of "+key.toString());
         return wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(key));
-
     }
 
     /**
      * @param element
      */
     public void scrollToElement(WebElement element) {
+        Log4j.info("Scroll to  "+element.getClass());
         String scrollElementIntoMiddle = "var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);"
                 + "var elementTop = arguments[0].getBoundingClientRect().top;"
                 + "window.scrollBy(0, elementTop-(viewPortHeight/2));";

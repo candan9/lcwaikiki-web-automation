@@ -6,11 +6,12 @@ import org.testng.Reporter;
 import java.util.Properties;
 
 public class Hooks {
+
     WebDriver driver;
     Properties properties;
     @Before
     public void before() {
-
+        Log4j.startLog();
         String browser="";
         try{
             browser = Reporter.getCurrentTestResult().getTestContext().getCurrentXmlTest().getParameter("browser");
@@ -35,6 +36,7 @@ public class Hooks {
 
     @After
     public void after() {
+        Log4j.endLog();
         driver.quit();
     }
 }
