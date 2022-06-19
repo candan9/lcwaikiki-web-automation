@@ -4,12 +4,10 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.testng.Assert;
 import pages.*;
 import util.DriverFactory;
 
 public class e2eMakeOrderStepDefs {
-
     String productCode="";
     LoginPage loginPage = new LoginPage(DriverFactory.getDriver());
     HomePage homePage = new HomePage(DriverFactory.getDriver());

@@ -4,15 +4,12 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class DriverFactory {
-
     static WebDriver driver;
     static Properties properties;
-
     public static WebDriver initialize_Driver(String browser){
         properties = ConfigReader.getProperties();
 

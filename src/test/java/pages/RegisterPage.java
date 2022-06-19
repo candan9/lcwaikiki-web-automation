@@ -9,11 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import util.ElementHelper;
 
-import java.util.List;
-
-
 public class RegisterPage {
-
 
     WebDriver driver;
     WebDriverWait wait;
@@ -29,13 +25,9 @@ public class RegisterPage {
 
     boolean find = false;
     public void checkHomePage() {
-
     }
     public void clickSkipButton() {
-
     }
     public void clickLoginButton() {
-
     }
-
 }

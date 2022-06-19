@@ -3,13 +3,10 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import util.ElementHelper;
 
 public class LoginPage {
-
     By input_email= By.name("email");
     By input_password= By.name("password");
     By btn_login= By.className("login-form__button");

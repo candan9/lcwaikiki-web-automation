@@ -3,11 +3,9 @@ package util;
 import io.cucumber.java.*;
 import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
-
 import java.util.Properties;
 
 public class Hooks {
-
     WebDriver driver;
     Properties properties;
     @Before
