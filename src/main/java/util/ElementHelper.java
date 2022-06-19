@@ -202,7 +202,15 @@ public class ElementHelper {
     public void focusElement(By key) {
         new Actions(driver).moveToElement(findElement(key)).perform();
     }
-
+    /**
+     @param key
+     @return
+     */
+    public WebElement findFirstElement(By key) {
+        List<WebElement> elements = presenceElements(key);
+        WebElement element = elements.get(0);
+        return element;
+    }
     /**
      * @param key
      * @return

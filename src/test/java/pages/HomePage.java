@@ -16,6 +16,11 @@ public class HomePage {
     By main_logo= By.className("main-header-logo");
     By section_login = By.className("dropdown-label");
     By btn_login = By.className("cart-action__btn");
+    By section_welcome =  By.className("list-content__item--welcome");
+    By section_category =  By.className("menu-header-item__title");
+    By section_branch =  By.className("zone-item__anchor");
+    By btn_cart= By.id("shopping-cart");
+
     WebDriver driver;
     WebDriverWait wait;
     ElementHelper elementHelper;
@@ -39,5 +44,20 @@ public class HomePage {
     }
     public void checkHomePage() {
         elementHelper.checkElementVisible(main_logo);
+    }
+
+    public String checkUserLoggedIn() {
+        elementHelper.focusElementWithText(section_login,"Hesabım");
+        return elementHelper.getText(section_welcome);
+    }
+    public void focusCategory(String categoryName) {
+        elementHelper.focusElementWithText(section_category,categoryName);
+    }
+    public void clickBranch(String branchName) {
+        elementHelper.clickElementWithText(section_branch,branchName);
+    }
+    public void goToCart() {
+        elementHelper.checkElementVisible(btn_cart);
+        elementHelper.click(btn_cart);
     }
 }

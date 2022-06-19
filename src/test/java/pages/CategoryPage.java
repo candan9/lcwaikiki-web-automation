@@ -19,11 +19,4 @@ public class CategoryPage {
         this.elementHelper = new ElementHelper(driver);
         this.action = new Actions(driver);
     }
-    public void scrollToElemenAndClick(int index,String text) {
-
-    }
-    public void clickCategory(String categoryName) {
-
-    }
-
 }

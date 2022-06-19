@@ -72,24 +72,19 @@ public class e2eMakeOrderStepDefs {
     }
 
     @Then("user see logged in that {string} on top of page")
-    public void userSeeLoggedInThatOnTopOfPage(String fullName) {
-        String fullNameLabel = homePage.checkUserLoggedIn();
-        Assert.assertTrue(fullNameLabel.contains(fullName));
+    public void userSeeLoggedInThatOnTopOfPage(String name) {
+        String welcomeLabel = homePage.checkUserLoggedIn();
+        Assert.assertTrue(welcomeLabel.contains(name));
     }
 
-    @When("click {string} category")
-    public void clickCategory(String categoryName) {
-        categoryPage.clickCategory(categoryName);
-    }
-
-    @And("click {string} sub category")
-    public void clickSubCategory(String subCategoryName) {
-        categoryPage.clickSubCategory(subCategoryName);
+    @When("focus {string} category")
+    public void focusCategory(String categoryName) {
+        homePage.focusCategory(categoryName);
     }
 
     @And("click {string} branch")
     public void clickBranch(String branchName) {
-        categoryPage.scrollToElemenAndClick(1,branchName);
+        homePage.clickBranch(branchName);
     }
 
     @Then("user see products")
@@ -120,7 +115,7 @@ public class e2eMakeOrderStepDefs {
 
     @And("filter {string} color")
     public void filterColor(String colorName) {
-        productPage.scrollToElement(0,colorName);
+        productPage.scrollToElement();
         productPage.selectColor(colorName);
     }
 

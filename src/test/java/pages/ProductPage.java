@@ -8,7 +8,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import util.ElementHelper;
 
 public class ProductPage {
-
+    By section_color_filter = By.className("collapsible-filter-container__content-area--color-filter");
+    By btn_color_option = By.className("color-filter-option__text");
+    By img_product = By.className("product-image__image");
+    By description_product  = By.className("product-card__title");
+    By size_product = By.cssSelector(".option-size a");
+    By add_to_basket = By.id("pd_add_to_cart");
     WebDriver driver;
     WebDriverWait wait;
     ElementHelper elementHelper;
@@ -20,5 +25,26 @@ public class ProductPage {
         this.elementHelper = new ElementHelper(driver);
         this.action = new Actions(driver);
     }
-
+    public void scrollToElement() {
+        elementHelper.scrollToElement(elementHelper.findElement(section_color_filter));
+    }
+    public void selectColor(String colorName) {
+        elementHelper.clickElementWithText(btn_color_option,colorName);
+    }
+    public void productsListed() {
+        elementHelper.checkElementVisible(img_product);
+    }
+    public void clickProduct() {
+        elementHelper.findFirstElement(img_product).click();
+    }
+    public String getProductDescription() {
+       return elementHelper.findFirstElement(description_product).getText();
+    }
+    public void selectProductSize(String size) {
+        elementHelper.clickElementWithText(size_product,size);
+    }
+    public void clickAddToBasket() {
+        elementHelper.checkElementVisible(add_to_basket);
+        elementHelper.click(add_to_basket);
+    }
 }
