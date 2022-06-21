@@ -20,9 +20,9 @@ public class e2eMakeOrderStepDefs {
         homePage.assertTitle(title);
     }
     @And("click login button")
-    public void clickLoginButton() {
-        //loginPage.clickLogin();
-    }
+    public void clickLoginButton() {//loginPage.clickLogin();
+        //
+     }
 
     @And("type {string} in password input")
     public void typeInPasswordInput(String errorMessage) {
@@ -73,7 +73,7 @@ public class e2eMakeOrderStepDefs {
 
     @And("filter {string} color")
     public void filterColor(String colorName) {
-        productPage.scrollToElement();
+        productPage.scrollToElementColor();
         productPage.selectColor(colorName);
     }
 
@@ -111,5 +111,11 @@ public class e2eMakeOrderStepDefs {
     public void userIsOpenedLcWaikikiWebsite() {
         homePage.checkHomePage();
         homePage.acceptCookies();
+    }
+
+    @And("filter {string} size")
+    public void filterSize(String size) {
+        productPage.scrollToElementSize();
+        productPage.selectSize(size);
     }
 }

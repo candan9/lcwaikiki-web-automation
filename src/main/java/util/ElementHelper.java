@@ -1,5 +1,6 @@
 package util;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -249,6 +250,19 @@ public class ElementHelper {
         List<WebElement> elements = presenceElements(key);
         WebElement element = elements.get(0);
         return element;
+    }
+    public WebElement findElementInElement(By key, String text,By secondKey) {
+        Log4j.info("finding first element of "+key.toString());
+        WebElement elementHold = null;
+        List<WebElement> elements = findElements(key);
+        for (WebElement element : elements) {
+            if (element.getText().equals(text)) {
+                elementHold=element;
+                presenceElement(key);
+                return element.findElement(secondKey);
+            }
+        }
+        return elementHold;
     }
     /**
      * @param key

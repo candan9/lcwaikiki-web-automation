@@ -13,6 +13,7 @@ Feature: e2e make order tests
     When focus "<category-name>" category
     And click "<branch>" branch
     And filter "<color>" color
+    And filter "<size>" size
     Then user see products
     When click a product
     And select "<size>" size

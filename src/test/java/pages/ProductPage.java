@@ -8,7 +8,9 @@ import util.ElementHelper;
 
 public class ProductPage {
     By section_color_filter = By.className("collapsible-filter-container__content-area--color-filter");
+    By section_size_filter = By.className("collapsible-filter-container__content-area--size-filter");
     By btn_color_option = By.className("color-filter-option__text");
+    By btn_size_option= By.className("filter-option__text");
     By img_product = By.className("product-image__image");
     By code_product  = By.cssSelector(".col-xs-7 > div:nth-child(1)");
     By size_product = By.cssSelector(".option-size a");
@@ -24,11 +26,17 @@ public class ProductPage {
         this.elementHelper = new ElementHelper(driver);
         this.action = new Actions(driver);
     }
-    public void scrollToElement() {
+    public void scrollToElementColor() {
         elementHelper.scrollToElement(elementHelper.findElement(section_color_filter));
+    }
+    public void scrollToElementSize() {
+        elementHelper.scrollToElement(elementHelper.findElement(section_size_filter));
     }
     public void selectColor(String colorName) {
         elementHelper.clickElementWithText(btn_color_option,colorName);
+    }
+    public void selectSize(String sizeName) {
+        elementHelper.findElementInElement(btn_size_option,sizeName,By.xpath("./../div")).click();
     }
     public void productsListed() {
         elementHelper.checkElementVisible(img_product);
@@ -38,13 +46,12 @@ public class ProductPage {
     }
     public String getProductCode() {
         elementHelper.checkElementVisible(code_product);
-        System.out.println("in function value "+ elementHelper.getText(code_product));
-
-       return elementHelper.findFirstElement(code_product).getText();
+        return elementHelper.findFirstElement(code_product).getText();
     }
     public void selectProductSize(String size) {
         elementHelper.clickElementWithText(size_product,size);
     }
+
     public void clickAddToBasket() {
         elementHelper.checkElementVisible(add_to_basket);
         elementHelper.click(add_to_basket);

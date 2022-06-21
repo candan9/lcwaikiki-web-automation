@@ -24,7 +24,6 @@ public class CartPage {
         this.action = new Actions(driver);
     }
     public void checkProductInformations(String productCode,String count ,String size ) {
-        System.out.println("Elemeent value ="+elementHelper.getText(code_product)+"parameter value"+productCode);
         Assert.assertTrue(productCode.contains(elementHelper.getText(code_product)));
         elementHelper.checkElementWithText(count_product,count);
         elementHelper.checkElementWithText(size_product,size);
