@@ -1,4 +1,4 @@
-@e2e @Reggression
+@E2e @Regression
 Feature: e2e make order tests
 
   @e2eMakeOrder
@@ -19,7 +19,7 @@ Feature: e2e make order tests
     And select "<size>" size
     And click add to basket
     And go to cart
-    Then user verifies that product information,product code,"<count>","<size>" , is correct on cart
+    Then user verifies  product information that price,product code,"<color>","<count>","<size>" , is correct on cart
     When go to payment phase
     Then user should see payment screen
     Examples:

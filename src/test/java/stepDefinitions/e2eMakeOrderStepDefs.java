@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import enitities.Product;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -8,7 +9,7 @@ import pages.*;
 import util.DriverFactory;
 
 public class e2eMakeOrderStepDefs {
-    String productCode="";
+    Product product= new Product();
     LoginPage loginPage = new LoginPage(DriverFactory.getDriver());
     HomePage homePage = new HomePage(DriverFactory.getDriver());
     ProductPage productPage = new ProductPage(DriverFactory.getDriver());
@@ -20,9 +21,10 @@ public class e2eMakeOrderStepDefs {
         homePage.assertTitle(title);
     }
     @And("click login button")
-    public void clickLoginButton() {//loginPage.clickLogin();
-        //
-     }
+    public void clickLoginButton() {
+        //loginPage.clickLogin();
+
+    }
 
     @And("type {string} in password input")
     public void typeInPasswordInput(String errorMessage) {
@@ -57,8 +59,7 @@ public class e2eMakeOrderStepDefs {
     @When("click a product")
     public void clickAProduct() {
         productPage.clickProduct();
-        productCode = productPage.getProductCode();
-        System.out.println("Feature value"+productCode);
+        product = productPage.getProductInformation(product);
     }
 
     @And("click add to basket")
@@ -102,11 +103,6 @@ public class e2eMakeOrderStepDefs {
         homePage.clickGoToLogin(loginButton);
     }
 
-    @Then("user verifies that product information,product code,{string},{string} , is correct on cart")
-    public void userVerifiesThatProductInformationProductCodeIsCorrectOnCart(String count, String size) {
-        cartPage.checkProductInformations(productCode,count,size);
-    }
-
     @Given("user is opened LcWaikiki Website")
     public void userIsOpenedLcWaikikiWebsite() {
         homePage.checkHomePage();
@@ -117,5 +113,13 @@ public class e2eMakeOrderStepDefs {
     public void filterSize(String size) {
         productPage.scrollToElementSize();
         productPage.selectSize(size);
+    }
+
+    @Then("user verifies  product information that price,product code,{string},{string},{string} , is correct on cart")
+    public void userVerifiesProductInformationThatPriceProductCodeIsCorrectOnCart(String color, String count, String size) {
+        product.setProductCount(count);
+        product.setProductColor(color);
+        product.setProductSize(size);
+        cartPage.checkProductInformations(product);
     }
 }

@@ -1,6 +1,5 @@
 package util;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -25,14 +24,28 @@ public class ElementHelper {
      * @param key
      * @return
      */
+    public WebElement findElementEnable(By key) {
+        Log4j.info("finding"+key.toString());
+        List<WebElement> elements = presenceElements(key);
+        WebElement elementHold = null;
+        boolean find;
+        for (WebElement element : elements) {
+            if (element.isDisplayed()) {
+                return element;
+            }
+        }
+        return elementHold;
+    }
+
+    /**
+     * @param key
+     */
     public WebElement findElement(By key) {
 
         WebElement element = presenceElement(key);
-        scrollToElement(element);
         Log4j.info("finding"+key.toString());
         return element;
     }
-
     /**
      * @param key
      * @return
@@ -48,10 +61,13 @@ public class ElementHelper {
      * @param key
      */
     public void click(By key) {
-        //findElement(key).click();
         Log4j.info("clicking"+key.toString());
         StaleElementHandleByClassName(key);
     }
+
+    /**
+     * @param key
+     */
     public void StaleElementHandleByClassName (By key)
     {
         int count = 0;
@@ -102,12 +118,24 @@ public class ElementHelper {
 
     /**
      * @param key
+     * @return
      */
-    public void checkElementVisible(By key) {
+    public boolean checkElementVisible(By key) {
         Log4j.info("checking visiblity of "+key.toString()+" element");
-        wait.until(ExpectedConditions.elementToBeClickable(findElement(key)));
+        wait.until(ExpectedConditions.presenceOfElementLocated(key));
+        return true;
     }
-
+    /**
+     * @param key
+     * @return
+     */
+    public boolean exist(By key){
+        if(!driver.findElements(key).isEmpty()){
+            return true;
+        }else{
+            return false;
+        }
+    }
     /**
      *
      * @param key
@@ -241,6 +269,7 @@ public class ElementHelper {
         Log4j.info("focusing element "+key.toString());
         new Actions(driver).moveToElement(findElement(key)).perform();
     }
+
     /**
      @param key
      @return
@@ -251,6 +280,11 @@ public class ElementHelper {
         WebElement element = elements.get(0);
         return element;
     }
+
+    /**
+     @param key
+     @return
+     */
     public WebElement findElementInElement(By key, String text,By secondKey) {
         Log4j.info("finding first element of "+key.toString());
         WebElement elementHold = null;
@@ -264,6 +298,7 @@ public class ElementHelper {
         }
         return elementHold;
     }
+
     /**
      * @param key
      * @return

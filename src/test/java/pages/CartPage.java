@@ -1,5 +1,6 @@
 package pages;
 
+import enitities.Product;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -11,6 +12,8 @@ public class CartPage {
     By code_product = By.className("rd-cart-item-code");
     By size_product = By.className("rd-cart-item-size");
     By count_product = By.className("item-quantity-input");
+    By color_product = By.className("rd-cart-item-color");
+    By price_product = By.className("pull-right");
     By go_to_payment = By.className("main-button");
     WebDriver driver;
     WebDriverWait wait;
@@ -23,10 +26,13 @@ public class CartPage {
         this.elementHelper = new ElementHelper(driver);
         this.action = new Actions(driver);
     }
-    public void checkProductInformations(String productCode,String count ,String size ) {
-        Assert.assertTrue(productCode.contains(elementHelper.getText(code_product)));
-        elementHelper.checkElementWithText(count_product,count);
-        elementHelper.checkElementWithText(size_product,size);
+    public void checkProductInformations(Product product) {
+        System.out.println("Count"+product.getProductCount()+"code"+product.getProductCode()+"size"+product.getProductSize()+"price"+product.getProductPrice()+"color"+product.getProductColor());
+        Assert.assertTrue(product.getProductCode().contains(elementHelper.getText(code_product)));
+        Assert.assertTrue(product.getProductPrice().contains(elementHelper.getText(price_product)));
+        Assert.assertTrue(elementHelper.getText(color_product).contains(product.getProductColor()));
+        Assert.assertTrue(elementHelper.getText(size_product).contains(product.getProductSize()));
+        Assert.assertTrue(product.getProductCount().contains(elementHelper.getText(count_product)));
     }
 
     public void goToPayment() {

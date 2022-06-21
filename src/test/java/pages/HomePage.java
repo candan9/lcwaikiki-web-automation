@@ -32,7 +32,7 @@ public class HomePage {
 
     public void clickGoToLogin(String title) {
         elementHelper.presenceElement(section_login);
-        elementHelper.clickElementWithText(section_login,title);
+        elementHelper.click(section_login);
     }
     public void checkHomePage() {
         elementHelper.checkElementVisible(main_logo);
