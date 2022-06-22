@@ -12,8 +12,8 @@ Feature: e2e make order tests
     Then user see logged in that "<my-account>" on top of page
     When focus "<category-name>" category
     And click "<branch>" branch
-    And filter "<color>" color
     And filter "<size>" size
+    And filter "<color>" color
     Then user see products
     When click a product
     And select "<size>" size

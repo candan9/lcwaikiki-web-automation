@@ -7,6 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import util.ElementHelper;
 
 public class LoginPage {
+
     By input_email= By.name("email");
     By input_password= By.name("password");
     By btn_login= By.className("login-form__button");
@@ -21,14 +22,17 @@ public class LoginPage {
         this.elementHelper = new ElementHelper(driver);
         this.action = new Actions(driver);
     }
+
     public void typeEmail(String email) {
         elementHelper.checkElementVisible(input_email);
         elementHelper.sendKey(input_email,email);
     }
+
     public void typePassword(String password) {
         elementHelper.checkElementVisible(input_password);
         elementHelper.sendKey(input_password,password);
     }
+
     public void clickLogin() {
         elementHelper.checkElementVisible(btn_login);
         elementHelper.click(btn_login);

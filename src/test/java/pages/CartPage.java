@@ -9,11 +9,12 @@ import org.testng.Assert;
 import util.ElementHelper;
 
 public class CartPage {
+
     By code_product = By.className("rd-cart-item-code");
     By size_product = By.className("rd-cart-item-size");
     By count_product = By.className("item-quantity-input");
     By color_product = By.className("rd-cart-item-color");
-    By price_product = By.className("pull-right");
+    By price_product = By.cssSelector(".price-info-area > div:nth-child(4) > div:nth-child(1) > span:nth-child(2)");
     By go_to_payment = By.className("main-button");
     WebDriver driver;
     WebDriverWait wait;
@@ -27,7 +28,6 @@ public class CartPage {
         this.action = new Actions(driver);
     }
     public void checkProductInformations(Product product) {
-        System.out.println("Count"+product.getProductCount()+"code"+product.getProductCode()+"size"+product.getProductSize()+"price"+product.getProductPrice()+"color"+product.getProductColor());
         Assert.assertTrue(product.getProductCode().contains(elementHelper.getText(code_product)));
         Assert.assertTrue(product.getProductPrice().contains(elementHelper.getText(price_product)));
         Assert.assertTrue(elementHelper.getText(color_product).contains(product.getProductColor()));

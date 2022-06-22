@@ -9,7 +9,6 @@ public class Log4j {
         Log.info("Test is Starting...");
     }
 
-
     public static void endLog (){
         Log.info("Test is Ending...");
     }

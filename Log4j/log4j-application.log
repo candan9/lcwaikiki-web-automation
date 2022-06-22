@@ -19713,3 +19713,1106 @@ The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoa
 	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883)
 	at freemarker.core.Include.accept(Include.java:162)
 	... 60 more
+2022-06-22 11:22:43 INFO  Log4j:9 - Test is Starting...
+2022-06-22 11:22:46 INFO  Log4j:19 - checking visiblity of By.className: main-header-logo element
+2022-06-22 11:22:46 INFO  Log4j:19 - wait to presence elements list of By.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:22:46 INFO  Log4j:19 - clickingBy.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:22:46 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:22:46 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:22:46 INFO  Log4j:19 - clickingBy.className: dropdown-label
+2022-06-22 11:22:46 INFO  Log4j:19 - checking visiblity of By.name: email element
+2022-06-22 11:22:47 INFO  Log4j:19 - typing emrecndn9@gmail.com into By.name: email
+2022-06-22 11:22:47 INFO  Log4j:19 - wait to presence element which By.name: email
+2022-06-22 11:22:47 INFO  Log4j:19 - findingBy.name: email
+2022-06-22 11:22:47 INFO  Log4j:19 - checking visiblity of By.name: password element
+2022-06-22 11:22:47 INFO  Log4j:19 - typing Ee1234012400! into By.name: password
+2022-06-22 11:22:47 INFO  Log4j:19 - wait to presence element which By.name: password
+2022-06-22 11:22:47 INFO  Log4j:19 - findingBy.name: password
+2022-06-22 11:22:47 INFO  Log4j:19 - checking element By.className: dropdown-labelwith Hesabım
+2022-06-22 11:22:47 INFO  Log4j:19 - findingBy.className: dropdown-label
+2022-06-22 11:22:47 INFO  Log4j:19 - wait to presence elements list of By.className: dropdown-label
+2022-06-22 11:22:47 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:22:47 INFO  Log4j:19 - focusing element By.className: menu-header-item__titlewith KADIN
+2022-06-22 11:22:47 INFO  Log4j:19 - findingBy.className: menu-header-item__title
+2022-06-22 11:22:47 INFO  Log4j:19 - wait to presence elements list of By.className: menu-header-item__title
+2022-06-22 11:22:47 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:22:47 INFO  Log4j:19 - wait to presence element which By.className: menu-header-item__title
+2022-06-22 11:22:47 INFO  Log4j:19 - checking element By.className: zone-item__anchorwith Bluz
+2022-06-22 11:22:47 INFO  Log4j:19 - findingBy.className: zone-item__anchor
+2022-06-22 11:22:47 INFO  Log4j:19 - wait to presence elements list of By.className: zone-item__anchor
+2022-06-22 11:22:48 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:22:49 INFO  Log4j:19 - clicking element By.className: zone-item__anchorwith Bluz
+2022-06-22 11:22:49 INFO  Log4j:19 - findingBy.className: zone-item__anchor
+2022-06-22 11:22:49 INFO  Log4j:19 - wait to presence elements list of By.className: zone-item__anchor
+2022-06-22 11:22:49 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:22:51 INFO  Log4j:19 - wait to presence element which By.className: collapsible-filter-container__content-area--color-filter
+2022-06-22 11:22:51 INFO  Log4j:19 - findingBy.className: collapsible-filter-container__content-area--color-filter
+2022-06-22 11:22:51 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:22:51 INFO  Log4j:19 - clicking element By.className: color-filter-option__textwith Siyah
+2022-06-22 11:22:51 INFO  Log4j:19 - findingBy.className: color-filter-option__text
+2022-06-22 11:22:51 INFO  Log4j:19 - wait to presence elements list of By.className: color-filter-option__text
+2022-06-22 11:22:51 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:22:51 INFO  Log4j:19 - checking visiblity of By.className: collapsible-filter-container__content-area--size-filter element
+2022-06-22 11:22:51 INFO  Log4j:19 - wait to presence element which By.className: collapsible-filter-container__content-area--size-filter
+2022-06-22 11:22:51 INFO  Log4j:19 - findingBy.className: collapsible-filter-container__content-area--size-filter
+2022-06-22 11:22:51 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:22:51 INFO  Log4j:19 - focusing element By.className: filter-option__textwith M
+2022-06-22 11:22:51 INFO  Log4j:19 - findingBy.className: filter-option__text
+2022-06-22 11:22:51 INFO  Log4j:19 - wait to presence elements list of By.className: filter-option__text
+2022-06-22 11:22:51 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:22:51 INFO  Log4j:19 - wait to presence element which By.className: filter-option__text
+2022-06-22 11:22:52 INFO  Log4j:19 - finding first element of By.className: filter-option__text
+2022-06-22 11:22:52 INFO  Log4j:19 - findingBy.className: filter-option__text
+2022-06-22 11:22:52 INFO  Log4j:19 - wait to presence elements list of By.className: filter-option__text
+2022-06-22 11:22:52 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:22:52 INFO  Log4j:19 - wait to presence element which By.className: filter-option__text
+2022-06-22 11:22:53 INFO  Log4j:14 - Test is Ending...
+2022-06-22 11:22:53 INFO  Log4j:9 - Test is Starting...
+2022-06-22 11:22:56 INFO  Log4j:19 - checking visiblity of By.className: main-header-logo element
+2022-06-22 11:22:56 INFO  Log4j:19 - wait to presence elements list of By.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:22:56 INFO  Log4j:19 - clickingBy.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:22:56 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:22:56 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:22:56 INFO  Log4j:19 - clickingBy.className: dropdown-label
+2022-06-22 11:22:56 INFO  Log4j:19 - wait to presence element which By.className: login-form__link
+2022-06-22 11:22:57 INFO  Log4j:19 - clickingBy.className: login-form__link
+2022-06-22 11:22:58 INFO  Log4j:19 - checking visiblity of By.name: email element
+2022-06-22 11:22:58 INFO  Log4j:19 - typing emrecndn@gmail.com into By.name: email
+2022-06-22 11:22:58 INFO  Log4j:19 - wait to presence element which By.name: email
+2022-06-22 11:22:58 INFO  Log4j:19 - findingBy.name: email
+2022-06-22 11:22:58 INFO  Log4j:19 - checking visiblity of By.name: password element
+2022-06-22 11:22:58 INFO  Log4j:19 - typing test1234 into By.name: password
+2022-06-22 11:22:58 INFO  Log4j:19 - wait to presence element which By.name: password
+2022-06-22 11:22:58 INFO  Log4j:19 - findingBy.name: password
+2022-06-22 11:22:58 INFO  Log4j:19 - checking visiblity of By.name: phone element
+2022-06-22 11:22:58 INFO  Log4j:19 - typing 5066368558 into By.name: phone
+2022-06-22 11:22:58 INFO  Log4j:19 - wait to presence element which By.name: phone
+2022-06-22 11:22:58 INFO  Log4j:19 - findingBy.name: phone
+2022-06-22 11:22:58 INFO  Log4j:19 - wait to presence element which By.className: register__button
+2022-06-22 11:22:59 INFO  Log4j:19 - clickingBy.className: register__button
+2022-06-22 11:22:59 INFO  Log4j:19 - checking element By.className: errorwith Kullanım ve Gizlilik Sözleşmesini onaylamalısınız.
+2022-06-22 11:22:59 INFO  Log4j:19 - findingBy.className: error
+2022-06-22 11:22:59 INFO  Log4j:19 - wait to presence elements list of By.className: error
+2022-06-22 11:22:59 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:22:59 INFO  Log4j:14 - Test is Ending...
+2022-06-22 11:22:59 INFO  Log4j:9 - Test is Starting...
+2022-06-22 11:23:02 INFO  Log4j:19 - checking visiblity of By.className: main-header-logo element
+2022-06-22 11:23:02 INFO  Log4j:19 - wait to presence elements list of By.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:23:02 INFO  Log4j:19 - clickingBy.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:23:02 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:23:02 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:23:02 INFO  Log4j:19 - clickingBy.className: dropdown-label
+2022-06-22 11:23:02 INFO  Log4j:19 - wait to presence element which By.className: login-form__link
+2022-06-22 11:23:03 INFO  Log4j:19 - clickingBy.className: login-form__link
+2022-06-22 11:23:04 INFO  Log4j:19 - checking visiblity of By.name: password element
+2022-06-22 11:23:04 INFO  Log4j:19 - typing test1234 into By.name: password
+2022-06-22 11:23:04 INFO  Log4j:19 - wait to presence element which By.name: password
+2022-06-22 11:23:04 INFO  Log4j:19 - findingBy.name: password
+2022-06-22 11:23:04 INFO  Log4j:19 - checking visiblity of By.name: phone element
+2022-06-22 11:23:04 INFO  Log4j:19 - typing 5066368558 into By.name: phone
+2022-06-22 11:23:04 INFO  Log4j:19 - wait to presence element which By.name: phone
+2022-06-22 11:23:04 INFO  Log4j:19 - findingBy.name: phone
+2022-06-22 11:23:04 INFO  Log4j:19 - wait to presence element which By.name: memberPrivacyApprove
+2022-06-22 11:23:04 INFO  Log4j:19 - clickingBy.name: memberPrivacyApprove
+2022-06-22 11:23:04 INFO  Log4j:19 - wait to presence element which By.className: register__button
+2022-06-22 11:23:04 INFO  Log4j:19 - clickingBy.className: register__button
+2022-06-22 11:23:04 INFO  Log4j:19 - checking element By.className: errorwith Lütfen geçerli bir e-posta adresi giriniz.
+2022-06-22 11:23:04 INFO  Log4j:19 - findingBy.className: error
+2022-06-22 11:23:04 INFO  Log4j:19 - wait to presence elements list of By.className: error
+2022-06-22 11:23:04 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:23:04 INFO  Log4j:14 - Test is Ending...
+2022-06-22 11:23:05 INFO  Log4j:9 - Test is Starting...
+2022-06-22 11:23:07 INFO  Log4j:19 - checking visiblity of By.className: main-header-logo element
+2022-06-22 11:23:07 INFO  Log4j:19 - wait to presence elements list of By.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:23:07 INFO  Log4j:19 - clickingBy.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:23:07 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:23:07 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:23:07 INFO  Log4j:19 - clickingBy.className: dropdown-label
+2022-06-22 11:23:07 INFO  Log4j:19 - wait to presence element which By.className: login-form__link
+2022-06-22 11:23:19 INFO  Log4j:9 - Test is Starting...
+2022-06-22 11:23:21 INFO  Log4j:19 - checking visiblity of By.className: main-header-logo element
+2022-06-22 11:23:21 INFO  Log4j:19 - wait to presence elements list of By.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:23:21 INFO  Log4j:19 - clickingBy.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:23:22 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:23:22 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:23:22 INFO  Log4j:19 - clickingBy.className: dropdown-label
+2022-06-22 11:23:22 INFO  Log4j:19 - checking visiblity of By.name: email element
+2022-06-22 11:23:23 INFO  Log4j:19 - typing emrecndn9@gmail.com into By.name: email
+2022-06-22 11:23:23 INFO  Log4j:19 - wait to presence element which By.name: email
+2022-06-22 11:23:23 INFO  Log4j:19 - findingBy.name: email
+2022-06-22 11:23:23 INFO  Log4j:19 - checking visiblity of By.name: password element
+2022-06-22 11:23:23 INFO  Log4j:19 - typing Ee1234012400! into By.name: password
+2022-06-22 11:23:23 INFO  Log4j:19 - wait to presence element which By.name: password
+2022-06-22 11:23:23 INFO  Log4j:19 - findingBy.name: password
+2022-06-22 11:23:23 INFO  Log4j:19 - checking element By.className: dropdown-labelwith Hesabım
+2022-06-22 11:23:23 INFO  Log4j:19 - findingBy.className: dropdown-label
+2022-06-22 11:23:23 INFO  Log4j:19 - wait to presence elements list of By.className: dropdown-label
+2022-06-22 11:23:23 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:23:23 INFO  Log4j:19 - focusing element By.className: menu-header-item__titlewith KADIN
+2022-06-22 11:23:23 INFO  Log4j:19 - findingBy.className: menu-header-item__title
+2022-06-22 11:23:23 INFO  Log4j:19 - wait to presence elements list of By.className: menu-header-item__title
+2022-06-22 11:23:23 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:23:23 INFO  Log4j:19 - wait to presence element which By.className: menu-header-item__title
+2022-06-22 11:23:23 INFO  Log4j:19 - checking element By.className: zone-item__anchorwith Bluz
+2022-06-22 11:23:23 INFO  Log4j:19 - findingBy.className: zone-item__anchor
+2022-06-22 11:23:23 INFO  Log4j:19 - wait to presence elements list of By.className: zone-item__anchor
+2022-06-22 11:23:23 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:23:25 INFO  Log4j:19 - clicking element By.className: zone-item__anchorwith Bluz
+2022-06-22 11:23:25 INFO  Log4j:19 - findingBy.className: zone-item__anchor
+2022-06-22 11:23:25 INFO  Log4j:19 - wait to presence elements list of By.className: zone-item__anchor
+2022-06-22 11:23:25 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:23:26 INFO  Log4j:19 - wait to presence element which By.className: collapsible-filter-container__content-area--color-filter
+2022-06-22 11:23:26 INFO  Log4j:19 - findingBy.className: collapsible-filter-container__content-area--color-filter
+2022-06-22 11:23:26 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:23:26 INFO  Log4j:19 - clicking element By.className: color-filter-option__textwith Siyah
+2022-06-22 11:23:26 INFO  Log4j:19 - findingBy.className: color-filter-option__text
+2022-06-22 11:23:26 INFO  Log4j:19 - wait to presence elements list of By.className: color-filter-option__text
+2022-06-22 11:23:27 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:23:27 INFO  Log4j:19 - checking visiblity of By.className: collapsible-filter-container__content-area--size-filter element
+2022-06-22 11:23:27 INFO  Log4j:19 - wait to presence element which By.className: collapsible-filter-container__content-area--size-filter
+2022-06-22 11:23:27 INFO  Log4j:19 - findingBy.className: collapsible-filter-container__content-area--size-filter
+2022-06-22 11:23:27 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:23:27 INFO  Log4j:19 - focusing element By.className: filter-option__textwith M
+2022-06-22 11:23:27 INFO  Log4j:19 - findingBy.className: filter-option__text
+2022-06-22 11:23:27 INFO  Log4j:19 - wait to presence elements list of By.className: filter-option__text
+2022-06-22 11:23:27 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:23:27 INFO  Log4j:19 - wait to presence element which By.className: filter-option__text
+2022-06-22 11:23:27 INFO  Log4j:19 - finding first element of By.className: filter-option__text
+2022-06-22 11:23:27 INFO  Log4j:19 - findingBy.className: filter-option__text
+2022-06-22 11:23:27 INFO  Log4j:19 - wait to presence elements list of By.className: filter-option__text
+2022-06-22 11:23:27 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:23:28 INFO  Log4j:19 - wait to presence element which By.className: filter-option__text
+2022-06-22 11:23:29 INFO  Log4j:14 - Test is Ending...
+2022-06-22 11:23:29 ERROR runtime:60 - Error executing FreeMarker template
+FreeMarker template error:
+Template inclusion failed (for parameter value "partials/exceptıon.ftl"):
+Template not found for name "spark/partials/exceptıon.ftl".
+The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #include "partials/${view.toString()}...  [in template "spark/spark.spa.ftl" at line 27, column 36]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core._MiscTemplateException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.Include.accept(Include.java:164)
+	at freemarker.core.Environment.visit(Environment.java:370)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:334)
+	at freemarker.core.Environment.visit(Environment.java:340)
+	at freemarker.core.Environment.process(Environment.java:313)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.writeTemplate(FreemarkerTemplate.java:45)
+	at com.aventstack.extentreports.reporter.AbstractFileReporter.processTemplate(AbstractFileReporter.java:74)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter.flush(ExtentSparkReporter.java:149)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$100(ExtentSparkReporter.java:27)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:121)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:113)
+	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310)
+	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226)
+	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83)
+	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85)
+	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:279)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.finishReport(ExtentCucumberAdapter.java:300)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.access$600(ExtentCucumberAdapter.java:62)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:136)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:133)
+	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
+	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
+	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
+	at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(CucumberExecutionContext.java:111)
+	at io.cucumber.core.runtime.CucumberExecutionContext.finishTestRun(CucumberExecutionContext.java:98)
+	at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:145)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:130)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: freemarker.template.TemplateNotFoundException: Template not found for name "spark/partials/exceptıon.ftl".
+The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
+	at freemarker.template.Configuration.getTemplate(Configuration.java:2869)
+	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883)
+	at freemarker.core.Include.accept(Include.java:162)
+	... 60 more
+2022-06-22 11:24:04 INFO  Log4j:9 - Test is Starting...
+2022-06-22 11:24:06 INFO  Log4j:19 - checking visiblity of By.className: main-header-logo element
+2022-06-22 11:24:06 INFO  Log4j:19 - wait to presence elements list of By.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:24:06 INFO  Log4j:19 - clickingBy.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:24:06 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:24:06 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:24:06 INFO  Log4j:19 - clickingBy.className: dropdown-label
+2022-06-22 11:24:06 INFO  Log4j:19 - checking visiblity of By.name: email element
+2022-06-22 11:24:07 INFO  Log4j:19 - typing emrecndn9@gmail.com into By.name: email
+2022-06-22 11:24:07 INFO  Log4j:19 - wait to presence element which By.name: email
+2022-06-22 11:24:07 INFO  Log4j:19 - findingBy.name: email
+2022-06-22 11:24:07 INFO  Log4j:19 - checking visiblity of By.name: password element
+2022-06-22 11:24:07 INFO  Log4j:19 - typing Ee1234012400! into By.name: password
+2022-06-22 11:24:07 INFO  Log4j:19 - wait to presence element which By.name: password
+2022-06-22 11:24:07 INFO  Log4j:19 - findingBy.name: password
+2022-06-22 11:24:08 INFO  Log4j:19 - checking element By.className: dropdown-labelwith Hesabım
+2022-06-22 11:24:08 INFO  Log4j:19 - findingBy.className: dropdown-label
+2022-06-22 11:24:08 INFO  Log4j:19 - wait to presence elements list of By.className: dropdown-label
+2022-06-22 11:24:08 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:24:08 INFO  Log4j:19 - focusing element By.className: menu-header-item__titlewith KADIN
+2022-06-22 11:24:08 INFO  Log4j:19 - findingBy.className: menu-header-item__title
+2022-06-22 11:24:08 INFO  Log4j:19 - wait to presence elements list of By.className: menu-header-item__title
+2022-06-22 11:24:08 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:24:08 INFO  Log4j:19 - wait to presence element which By.className: menu-header-item__title
+2022-06-22 11:24:08 INFO  Log4j:19 - checking element By.className: zone-item__anchorwith Bluz
+2022-06-22 11:24:08 INFO  Log4j:19 - findingBy.className: zone-item__anchor
+2022-06-22 11:24:08 INFO  Log4j:19 - wait to presence elements list of By.className: zone-item__anchor
+2022-06-22 11:24:08 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:24:10 INFO  Log4j:19 - clicking element By.className: zone-item__anchorwith Bluz
+2022-06-22 11:24:10 INFO  Log4j:19 - findingBy.className: zone-item__anchor
+2022-06-22 11:24:10 INFO  Log4j:19 - wait to presence elements list of By.className: zone-item__anchor
+2022-06-22 11:24:10 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:24:11 ERROR Log4j:29 - element no found
+2022-06-22 11:24:11 INFO  Log4j:14 - Test is Ending...
+2022-06-22 11:24:12 ERROR runtime:60 - Error executing FreeMarker template
+FreeMarker template error:
+Template inclusion failed (for parameter value "partials/exceptıon.ftl"):
+Template not found for name "spark/partials/exceptıon.ftl".
+The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #include "partials/${view.toString()}...  [in template "spark/spark.spa.ftl" at line 27, column 36]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core._MiscTemplateException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.Include.accept(Include.java:164)
+	at freemarker.core.Environment.visit(Environment.java:370)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:334)
+	at freemarker.core.Environment.visit(Environment.java:340)
+	at freemarker.core.Environment.process(Environment.java:313)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.writeTemplate(FreemarkerTemplate.java:45)
+	at com.aventstack.extentreports.reporter.AbstractFileReporter.processTemplate(AbstractFileReporter.java:74)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter.flush(ExtentSparkReporter.java:149)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$100(ExtentSparkReporter.java:27)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:121)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:113)
+	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310)
+	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226)
+	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83)
+	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85)
+	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:279)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.finishReport(ExtentCucumberAdapter.java:300)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.access$600(ExtentCucumberAdapter.java:62)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:136)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:133)
+	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
+	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
+	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
+	at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(CucumberExecutionContext.java:111)
+	at io.cucumber.core.runtime.CucumberExecutionContext.finishTestRun(CucumberExecutionContext.java:98)
+	at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:145)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:130)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: freemarker.template.TemplateNotFoundException: Template not found for name "spark/partials/exceptıon.ftl".
+The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
+	at freemarker.template.Configuration.getTemplate(Configuration.java:2869)
+	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883)
+	at freemarker.core.Include.accept(Include.java:162)
+	... 60 more
+2022-06-22 11:24:20 INFO  Log4j:9 - Test is Starting...
+2022-06-22 11:24:23 INFO  Log4j:19 - checking visiblity of By.className: main-header-logo element
+2022-06-22 11:24:23 INFO  Log4j:19 - wait to presence elements list of By.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:24:23 INFO  Log4j:19 - clickingBy.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:24:23 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:24:23 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:24:23 INFO  Log4j:19 - clickingBy.className: dropdown-label
+2022-06-22 11:24:23 INFO  Log4j:19 - checking visiblity of By.name: email element
+2022-06-22 11:24:25 INFO  Log4j:19 - typing emrecndn9@gmail.com into By.name: email
+2022-06-22 11:24:25 INFO  Log4j:19 - wait to presence element which By.name: email
+2022-06-22 11:24:25 INFO  Log4j:19 - findingBy.name: email
+2022-06-22 11:24:25 INFO  Log4j:19 - checking visiblity of By.name: password element
+2022-06-22 11:24:25 INFO  Log4j:19 - typing Ee1234012400! into By.name: password
+2022-06-22 11:24:25 INFO  Log4j:19 - wait to presence element which By.name: password
+2022-06-22 11:24:25 INFO  Log4j:19 - findingBy.name: password
+2022-06-22 11:24:25 INFO  Log4j:19 - checking element By.className: dropdown-labelwith Hesabım
+2022-06-22 11:24:25 INFO  Log4j:19 - findingBy.className: dropdown-label
+2022-06-22 11:24:25 INFO  Log4j:19 - wait to presence elements list of By.className: dropdown-label
+2022-06-22 11:24:25 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:24:25 INFO  Log4j:19 - focusing element By.className: menu-header-item__titlewith KADIN
+2022-06-22 11:24:25 INFO  Log4j:19 - findingBy.className: menu-header-item__title
+2022-06-22 11:24:25 INFO  Log4j:19 - wait to presence elements list of By.className: menu-header-item__title
+2022-06-22 11:24:25 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:24:25 INFO  Log4j:19 - wait to presence element which By.className: menu-header-item__title
+2022-06-22 11:24:25 INFO  Log4j:19 - checking element By.className: zone-item__anchorwith Bluz
+2022-06-22 11:24:25 INFO  Log4j:19 - findingBy.className: zone-item__anchor
+2022-06-22 11:24:25 INFO  Log4j:19 - wait to presence elements list of By.className: zone-item__anchor
+2022-06-22 11:24:25 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:24:27 INFO  Log4j:19 - clicking element By.className: zone-item__anchorwith Bluz
+2022-06-22 11:24:27 INFO  Log4j:19 - findingBy.className: zone-item__anchor
+2022-06-22 11:24:27 INFO  Log4j:19 - wait to presence elements list of By.className: zone-item__anchor
+2022-06-22 11:24:27 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:24:28 ERROR Log4j:29 - element no found
+2022-06-22 11:24:28 INFO  Log4j:14 - Test is Ending...
+2022-06-22 11:24:29 ERROR runtime:60 - Error executing FreeMarker template
+FreeMarker template error:
+Template inclusion failed (for parameter value "partials/exceptıon.ftl"):
+Template not found for name "spark/partials/exceptıon.ftl".
+The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #include "partials/${view.toString()}...  [in template "spark/spark.spa.ftl" at line 27, column 36]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core._MiscTemplateException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.Include.accept(Include.java:164)
+	at freemarker.core.Environment.visit(Environment.java:370)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:334)
+	at freemarker.core.Environment.visit(Environment.java:340)
+	at freemarker.core.Environment.process(Environment.java:313)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.writeTemplate(FreemarkerTemplate.java:45)
+	at com.aventstack.extentreports.reporter.AbstractFileReporter.processTemplate(AbstractFileReporter.java:74)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter.flush(ExtentSparkReporter.java:149)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$100(ExtentSparkReporter.java:27)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:121)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:113)
+	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310)
+	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226)
+	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83)
+	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85)
+	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:279)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.finishReport(ExtentCucumberAdapter.java:300)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.access$600(ExtentCucumberAdapter.java:62)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:136)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:133)
+	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
+	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
+	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
+	at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(CucumberExecutionContext.java:111)
+	at io.cucumber.core.runtime.CucumberExecutionContext.finishTestRun(CucumberExecutionContext.java:98)
+	at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:145)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:130)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: freemarker.template.TemplateNotFoundException: Template not found for name "spark/partials/exceptıon.ftl".
+The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
+	at freemarker.template.Configuration.getTemplate(Configuration.java:2869)
+	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883)
+	at freemarker.core.Include.accept(Include.java:162)
+	... 60 more
+2022-06-22 11:25:05 INFO  Log4j:9 - Test is Starting...
+2022-06-22 11:25:08 INFO  Log4j:19 - checking visiblity of By.className: main-header-logo element
+2022-06-22 11:25:08 INFO  Log4j:19 - wait to presence elements list of By.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:25:08 INFO  Log4j:19 - clickingBy.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:25:08 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:25:08 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:25:08 INFO  Log4j:19 - clickingBy.className: dropdown-label
+2022-06-22 11:25:08 INFO  Log4j:19 - checking visiblity of By.name: email element
+2022-06-22 11:25:09 INFO  Log4j:19 - typing emrecndn9@gmail.com into By.name: email
+2022-06-22 11:25:09 INFO  Log4j:19 - wait to presence element which By.name: email
+2022-06-22 11:25:09 INFO  Log4j:19 - findingBy.name: email
+2022-06-22 11:25:09 INFO  Log4j:19 - checking visiblity of By.name: password element
+2022-06-22 11:25:09 INFO  Log4j:19 - typing Ee1234012400! into By.name: password
+2022-06-22 11:25:09 INFO  Log4j:19 - wait to presence element which By.name: password
+2022-06-22 11:25:09 INFO  Log4j:19 - findingBy.name: password
+2022-06-22 11:25:09 INFO  Log4j:19 - checking element By.className: dropdown-labelwith Hesabım
+2022-06-22 11:25:09 INFO  Log4j:19 - findingBy.className: dropdown-label
+2022-06-22 11:25:09 INFO  Log4j:19 - wait to presence elements list of By.className: dropdown-label
+2022-06-22 11:25:10 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:25:10 INFO  Log4j:19 - focusing element By.className: menu-header-item__titlewith KADIN
+2022-06-22 11:25:10 INFO  Log4j:19 - findingBy.className: menu-header-item__title
+2022-06-22 11:25:10 INFO  Log4j:19 - wait to presence elements list of By.className: menu-header-item__title
+2022-06-22 11:25:10 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:25:10 INFO  Log4j:19 - wait to presence element which By.className: menu-header-item__title
+2022-06-22 11:25:10 INFO  Log4j:19 - checking element By.className: zone-item__anchorwith Bluz
+2022-06-22 11:25:10 INFO  Log4j:19 - findingBy.className: zone-item__anchor
+2022-06-22 11:25:10 INFO  Log4j:19 - wait to presence elements list of By.className: zone-item__anchor
+2022-06-22 11:25:10 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:25:12 INFO  Log4j:19 - clicking element By.className: zone-item__anchorwith Bluz
+2022-06-22 11:25:12 INFO  Log4j:19 - findingBy.className: zone-item__anchor
+2022-06-22 11:25:12 INFO  Log4j:19 - wait to presence elements list of By.className: zone-item__anchor
+2022-06-22 11:25:12 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:25:13 INFO  Log4j:19 - wait to presence element which By.className: collapsible-filter-container__content-area--color-filter
+2022-06-22 11:25:13 INFO  Log4j:19 - findingBy.className: collapsible-filter-container__content-area--color-filter
+2022-06-22 11:25:13 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:25:13 INFO  Log4j:19 - clicking element By.className: color-filter-option__textwith Siyah
+2022-06-22 11:25:13 INFO  Log4j:19 - findingBy.className: color-filter-option__text
+2022-06-22 11:25:13 INFO  Log4j:19 - wait to presence elements list of By.className: color-filter-option__text
+2022-06-22 11:25:13 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:25:13 INFO  Log4j:19 - checking visiblity of By.className: collapsible-filter-container__content-area--size-filter element
+2022-06-22 11:25:14 INFO  Log4j:19 - wait to presence element which By.className: collapsible-filter-container__content-area--size-filter
+2022-06-22 11:25:14 INFO  Log4j:19 - findingBy.className: collapsible-filter-container__content-area--size-filter
+2022-06-22 11:25:14 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:25:14 INFO  Log4j:19 - focusing element By.className: filter-option__textwith M
+2022-06-22 11:25:14 INFO  Log4j:19 - findingBy.className: filter-option__text
+2022-06-22 11:25:14 INFO  Log4j:19 - wait to presence elements list of By.className: filter-option__text
+2022-06-22 11:25:14 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:25:14 INFO  Log4j:19 - wait to presence element which By.className: filter-option__text
+2022-06-22 11:25:14 INFO  Log4j:19 - finding first element of By.className: filter-option__text
+2022-06-22 11:25:14 INFO  Log4j:19 - findingBy.className: filter-option__text
+2022-06-22 11:25:14 INFO  Log4j:19 - wait to presence elements list of By.className: filter-option__text
+2022-06-22 11:25:14 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:25:14 INFO  Log4j:19 - wait to presence element which By.className: filter-option__text
+2022-06-22 11:25:14 INFO  Log4j:19 - checking visiblity of By.className: product-image__image element
+2022-06-22 11:25:14 INFO  Log4j:19 - checking visiblity of By.className: product-image__image element
+2022-06-22 11:25:14 INFO  Log4j:19 - finding first element of By.className: product-image__image
+2022-06-22 11:25:14 INFO  Log4j:19 - wait to presence elements list of By.className: product-image__image
+2022-06-22 11:25:15 INFO  Log4j:14 - Test is Ending...
+2022-06-22 11:25:16 ERROR runtime:60 - Error executing FreeMarker template
+FreeMarker template error:
+Template inclusion failed (for parameter value "partials/exceptıon.ftl"):
+Template not found for name "spark/partials/exceptıon.ftl".
+The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #include "partials/${view.toString()}...  [in template "spark/spark.spa.ftl" at line 27, column 36]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core._MiscTemplateException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.Include.accept(Include.java:164)
+	at freemarker.core.Environment.visit(Environment.java:370)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:334)
+	at freemarker.core.Environment.visit(Environment.java:340)
+	at freemarker.core.Environment.process(Environment.java:313)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.writeTemplate(FreemarkerTemplate.java:45)
+	at com.aventstack.extentreports.reporter.AbstractFileReporter.processTemplate(AbstractFileReporter.java:74)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter.flush(ExtentSparkReporter.java:149)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$100(ExtentSparkReporter.java:27)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:121)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:113)
+	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310)
+	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226)
+	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83)
+	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85)
+	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:279)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.finishReport(ExtentCucumberAdapter.java:300)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.access$600(ExtentCucumberAdapter.java:62)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:136)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:133)
+	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
+	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
+	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
+	at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(CucumberExecutionContext.java:111)
+	at io.cucumber.core.runtime.CucumberExecutionContext.finishTestRun(CucumberExecutionContext.java:98)
+	at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:145)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:130)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: freemarker.template.TemplateNotFoundException: Template not found for name "spark/partials/exceptıon.ftl".
+The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
+	at freemarker.template.Configuration.getTemplate(Configuration.java:2869)
+	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883)
+	at freemarker.core.Include.accept(Include.java:162)
+	... 60 more
+2022-06-22 11:25:38 INFO  Log4j:9 - Test is Starting...
+2022-06-22 11:25:41 INFO  Log4j:19 - checking visiblity of By.className: main-header-logo element
+2022-06-22 11:25:41 INFO  Log4j:19 - wait to presence elements list of By.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:25:41 INFO  Log4j:19 - clickingBy.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:25:41 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:25:41 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:25:41 INFO  Log4j:19 - clickingBy.className: dropdown-label
+2022-06-22 11:25:41 INFO  Log4j:19 - checking visiblity of By.name: email element
+2022-06-22 11:25:42 INFO  Log4j:19 - typing emrecndn9@gmail.com into By.name: email
+2022-06-22 11:25:42 INFO  Log4j:19 - wait to presence element which By.name: email
+2022-06-22 11:25:42 INFO  Log4j:19 - findingBy.name: email
+2022-06-22 11:25:42 INFO  Log4j:19 - checking visiblity of By.name: password element
+2022-06-22 11:25:42 INFO  Log4j:19 - typing Ee1234012400! into By.name: password
+2022-06-22 11:25:42 INFO  Log4j:19 - wait to presence element which By.name: password
+2022-06-22 11:25:42 INFO  Log4j:19 - findingBy.name: password
+2022-06-22 11:25:42 INFO  Log4j:19 - checking element By.className: dropdown-labelwith Hesabım
+2022-06-22 11:25:42 INFO  Log4j:19 - findingBy.className: dropdown-label
+2022-06-22 11:25:42 INFO  Log4j:19 - wait to presence elements list of By.className: dropdown-label
+2022-06-22 11:25:42 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:25:42 INFO  Log4j:19 - focusing element By.className: menu-header-item__titlewith KADIN
+2022-06-22 11:25:42 INFO  Log4j:19 - findingBy.className: menu-header-item__title
+2022-06-22 11:25:42 INFO  Log4j:19 - wait to presence elements list of By.className: menu-header-item__title
+2022-06-22 11:25:42 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:25:42 INFO  Log4j:19 - wait to presence element which By.className: menu-header-item__title
+2022-06-22 11:25:43 INFO  Log4j:19 - checking element By.className: zone-item__anchorwith Bluz
+2022-06-22 11:25:43 INFO  Log4j:19 - findingBy.className: zone-item__anchor
+2022-06-22 11:25:43 INFO  Log4j:19 - wait to presence elements list of By.className: zone-item__anchor
+2022-06-22 11:25:43 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:25:45 INFO  Log4j:19 - clicking element By.className: zone-item__anchorwith Bluz
+2022-06-22 11:25:45 INFO  Log4j:19 - findingBy.className: zone-item__anchor
+2022-06-22 11:25:45 INFO  Log4j:19 - wait to presence elements list of By.className: zone-item__anchor
+2022-06-22 11:25:45 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:25:45 INFO  Log4j:19 - checking visiblity of By.className: collapsible-filter-container__content-area--size-filter element
+2022-06-22 11:25:45 INFO  Log4j:19 - wait to presence element which By.className: collapsible-filter-container__content-area--size-filter
+2022-06-22 11:25:45 INFO  Log4j:19 - findingBy.className: collapsible-filter-container__content-area--size-filter
+2022-06-22 11:25:45 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:25:46 INFO  Log4j:19 - focusing element By.className: filter-option__textwith M
+2022-06-22 11:25:46 INFO  Log4j:19 - findingBy.className: filter-option__text
+2022-06-22 11:25:46 INFO  Log4j:19 - wait to presence elements list of By.className: filter-option__text
+2022-06-22 11:25:46 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:25:46 INFO  Log4j:19 - wait to presence element which By.className: filter-option__text
+2022-06-22 11:25:46 INFO  Log4j:19 - finding first element of By.className: filter-option__text
+2022-06-22 11:25:46 INFO  Log4j:19 - findingBy.className: filter-option__text
+2022-06-22 11:25:46 INFO  Log4j:19 - wait to presence elements list of By.className: filter-option__text
+2022-06-22 11:25:46 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:25:46 INFO  Log4j:19 - wait to presence element which By.className: filter-option__text
+2022-06-22 11:25:46 INFO  Log4j:19 - wait to presence element which By.className: collapsible-filter-container__content-area--color-filter
+2022-06-22 11:25:46 INFO  Log4j:19 - findingBy.className: collapsible-filter-container__content-area--color-filter
+2022-06-22 11:25:46 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:25:46 INFO  Log4j:19 - clicking element By.className: color-filter-option__textwith Siyah
+2022-06-22 11:25:46 INFO  Log4j:19 - findingBy.className: color-filter-option__text
+2022-06-22 11:25:46 INFO  Log4j:19 - wait to presence elements list of By.className: color-filter-option__text
+2022-06-22 11:25:46 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:25:48 INFO  Log4j:14 - Test is Ending...
+2022-06-22 11:25:49 ERROR runtime:60 - Error executing FreeMarker template
+FreeMarker template error:
+Template inclusion failed (for parameter value "partials/exceptıon.ftl"):
+Template not found for name "spark/partials/exceptıon.ftl".
+The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #include "partials/${view.toString()}...  [in template "spark/spark.spa.ftl" at line 27, column 36]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core._MiscTemplateException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.Include.accept(Include.java:164)
+	at freemarker.core.Environment.visit(Environment.java:370)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:334)
+	at freemarker.core.Environment.visit(Environment.java:340)
+	at freemarker.core.Environment.process(Environment.java:313)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.writeTemplate(FreemarkerTemplate.java:45)
+	at com.aventstack.extentreports.reporter.AbstractFileReporter.processTemplate(AbstractFileReporter.java:74)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter.flush(ExtentSparkReporter.java:149)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$100(ExtentSparkReporter.java:27)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:121)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:113)
+	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310)
+	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226)
+	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83)
+	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85)
+	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:279)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.finishReport(ExtentCucumberAdapter.java:300)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.access$600(ExtentCucumberAdapter.java:62)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:136)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:133)
+	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
+	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
+	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
+	at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(CucumberExecutionContext.java:111)
+	at io.cucumber.core.runtime.CucumberExecutionContext.finishTestRun(CucumberExecutionContext.java:98)
+	at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:145)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:130)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: freemarker.template.TemplateNotFoundException: Template not found for name "spark/partials/exceptıon.ftl".
+The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
+	at freemarker.template.Configuration.getTemplate(Configuration.java:2869)
+	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883)
+	at freemarker.core.Include.accept(Include.java:162)
+	... 60 more
+2022-06-22 11:26:42 INFO  Log4j:9 - Test is Starting...
+2022-06-22 11:26:44 INFO  Log4j:19 - checking visiblity of By.className: main-header-logo element
+2022-06-22 11:26:44 INFO  Log4j:19 - wait to presence elements list of By.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:26:44 INFO  Log4j:19 - clickingBy.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:26:44 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:26:44 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:26:44 INFO  Log4j:19 - clickingBy.className: dropdown-label
+2022-06-22 11:26:44 INFO  Log4j:19 - checking visiblity of By.name: email element
+2022-06-22 11:26:45 INFO  Log4j:19 - typing emrecndn9@gmail.com into By.name: email
+2022-06-22 11:26:45 INFO  Log4j:19 - wait to presence element which By.name: email
+2022-06-22 11:26:45 INFO  Log4j:19 - findingBy.name: email
+2022-06-22 11:26:46 INFO  Log4j:19 - checking visiblity of By.name: password element
+2022-06-22 11:26:46 INFO  Log4j:19 - typing Ee1234012400! into By.name: password
+2022-06-22 11:26:46 INFO  Log4j:19 - wait to presence element which By.name: password
+2022-06-22 11:26:46 INFO  Log4j:19 - findingBy.name: password
+2022-06-22 11:26:46 INFO  Log4j:19 - checking element By.className: dropdown-labelwith Hesabım
+2022-06-22 11:26:46 INFO  Log4j:19 - findingBy.className: dropdown-label
+2022-06-22 11:26:46 INFO  Log4j:19 - wait to presence elements list of By.className: dropdown-label
+2022-06-22 11:26:46 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:26:46 INFO  Log4j:19 - focusing element By.className: menu-header-item__titlewith KADIN
+2022-06-22 11:26:46 INFO  Log4j:19 - findingBy.className: menu-header-item__title
+2022-06-22 11:26:46 INFO  Log4j:19 - wait to presence elements list of By.className: menu-header-item__title
+2022-06-22 11:26:46 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:26:46 INFO  Log4j:19 - wait to presence element which By.className: menu-header-item__title
+2022-06-22 11:26:46 INFO  Log4j:19 - checking element By.className: zone-item__anchorwith Bluz
+2022-06-22 11:26:46 INFO  Log4j:19 - findingBy.className: zone-item__anchor
+2022-06-22 11:26:46 INFO  Log4j:19 - wait to presence elements list of By.className: zone-item__anchor
+2022-06-22 11:26:46 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:26:48 INFO  Log4j:19 - clicking element By.className: zone-item__anchorwith Bluz
+2022-06-22 11:26:48 INFO  Log4j:19 - findingBy.className: zone-item__anchor
+2022-06-22 11:26:48 INFO  Log4j:19 - wait to presence elements list of By.className: zone-item__anchor
+2022-06-22 11:26:48 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:26:49 INFO  Log4j:19 - checking visiblity of By.className: collapsible-filter-container__content-area--size-filter element
+2022-06-22 11:26:49 INFO  Log4j:19 - wait to presence element which By.className: collapsible-filter-container__content-area--size-filter
+2022-06-22 11:26:49 INFO  Log4j:19 - findingBy.className: collapsible-filter-container__content-area--size-filter
+2022-06-22 11:26:49 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:26:49 INFO  Log4j:19 - focusing element By.className: filter-option__textwith M
+2022-06-22 11:26:49 INFO  Log4j:19 - findingBy.className: filter-option__text
+2022-06-22 11:26:49 INFO  Log4j:19 - wait to presence elements list of By.className: filter-option__text
+2022-06-22 11:26:49 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:26:49 INFO  Log4j:19 - wait to presence element which By.className: filter-option__text
+2022-06-22 11:26:49 INFO  Log4j:19 - finding first element of By.className: filter-option__text
+2022-06-22 11:26:49 INFO  Log4j:19 - findingBy.className: filter-option__text
+2022-06-22 11:26:49 INFO  Log4j:19 - wait to presence elements list of By.className: filter-option__text
+2022-06-22 11:26:49 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:26:49 INFO  Log4j:19 - wait to presence element which By.className: filter-option__text
+2022-06-22 11:26:49 INFO  Log4j:19 - wait to presence element which By.className: collapsible-filter-container__content-area--color-filter
+2022-06-22 11:26:50 INFO  Log4j:19 - findingBy.className: collapsible-filter-container__content-area--color-filter
+2022-06-22 11:26:50 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:26:50 INFO  Log4j:19 - checking element By.className: color-filter-option__textwith Siyah
+2022-06-22 11:26:50 INFO  Log4j:19 - findingBy.className: color-filter-option__text
+2022-06-22 11:26:50 INFO  Log4j:19 - wait to presence elements list of By.className: color-filter-option__text
+2022-06-22 11:26:50 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:26:50 INFO  Log4j:19 - wait to presence element which By.className: color-filter-option__text
+2022-06-22 11:26:50 INFO  Log4j:19 - clicking element By.className: color-filter-option__textwith Siyah
+2022-06-22 11:26:50 INFO  Log4j:19 - findingBy.className: color-filter-option__text
+2022-06-22 11:26:50 INFO  Log4j:19 - wait to presence elements list of By.className: color-filter-option__text
+2022-06-22 11:26:50 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:26:50 INFO  Log4j:19 - checking visiblity of By.className: product-image__image element
+2022-06-22 11:26:50 INFO  Log4j:19 - checking visiblity of By.className: product-image__image element
+2022-06-22 11:26:50 INFO  Log4j:19 - finding first element of By.className: product-image__image
+2022-06-22 11:26:50 INFO  Log4j:19 - wait to presence elements list of By.className: product-image__image
+2022-06-22 11:26:54 INFO  Log4j:19 - checking visiblity of By.cssSelector: .col-xs-7 div element
+2022-06-22 11:26:54 INFO  Log4j:19 - finding first element of By.cssSelector: .col-xs-7 div
+2022-06-22 11:26:54 INFO  Log4j:19 - wait to presence elements list of By.cssSelector: .col-xs-7 div
+2022-06-22 11:26:54 INFO  Log4j:19 - findingBy.className: basket-discount
+2022-06-22 11:26:54 INFO  Log4j:19 - wait to presence elements list of By.className: basket-discount
+2022-06-22 11:27:14 INFO  Log4j:19 - checking element By.cssSelector: .option-size awith M
+2022-06-22 11:27:14 INFO  Log4j:19 - findingBy.cssSelector: .option-size a
+2022-06-22 11:27:14 INFO  Log4j:19 - wait to presence elements list of By.cssSelector: .option-size a
+2022-06-22 11:27:14 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:27:14 INFO  Log4j:19 - wait to presence element which By.cssSelector: .option-size a
+2022-06-22 11:27:14 INFO  Log4j:19 - clicking element By.cssSelector: .option-size awith M
+2022-06-22 11:27:14 INFO  Log4j:19 - findingBy.cssSelector: .option-size a
+2022-06-22 11:27:14 INFO  Log4j:19 - wait to presence elements list of By.cssSelector: .option-size a
+2022-06-22 11:27:14 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:27:14 INFO  Log4j:19 - checking visiblity of By.id: pd_add_to_cart element
+2022-06-22 11:27:14 INFO  Log4j:19 - clickingBy.id: pd_add_to_cart
+2022-06-22 11:27:14 INFO  Log4j:19 - checking visiblity of By.id: shopping-cart element
+2022-06-22 11:27:14 INFO  Log4j:19 - clickingBy.id: shopping-cart
+2022-06-22 11:27:17 INFO  Log4j:19 - getting By.className: rd-cart-item-code text
+2022-06-22 11:27:17 INFO  Log4j:19 - wait to presence element which By.className: rd-cart-item-code
+2022-06-22 11:27:17 INFO  Log4j:19 - findingBy.className: rd-cart-item-code
+2022-06-22 11:27:17 INFO  Log4j:19 - getting By.className: pull-right text
+2022-06-22 11:27:17 INFO  Log4j:19 - wait to presence element which By.className: pull-right
+2022-06-22 11:27:17 INFO  Log4j:19 - findingBy.className: pull-right
+2022-06-22 11:27:17 INFO  Log4j:14 - Test is Ending...
+2022-06-22 11:27:18 ERROR runtime:60 - Error executing FreeMarker template
+FreeMarker template error:
+Template inclusion failed (for parameter value "partials/exceptıon.ftl"):
+Template not found for name "spark/partials/exceptıon.ftl".
+The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #include "partials/${view.toString()}...  [in template "spark/spark.spa.ftl" at line 27, column 36]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core._MiscTemplateException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.Include.accept(Include.java:164)
+	at freemarker.core.Environment.visit(Environment.java:370)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:334)
+	at freemarker.core.Environment.visit(Environment.java:340)
+	at freemarker.core.Environment.process(Environment.java:313)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.writeTemplate(FreemarkerTemplate.java:45)
+	at com.aventstack.extentreports.reporter.AbstractFileReporter.processTemplate(AbstractFileReporter.java:74)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter.flush(ExtentSparkReporter.java:149)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$100(ExtentSparkReporter.java:27)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:121)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:113)
+	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310)
+	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226)
+	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83)
+	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85)
+	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:279)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.finishReport(ExtentCucumberAdapter.java:300)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.access$600(ExtentCucumberAdapter.java:62)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:136)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:133)
+	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
+	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
+	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
+	at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(CucumberExecutionContext.java:111)
+	at io.cucumber.core.runtime.CucumberExecutionContext.finishTestRun(CucumberExecutionContext.java:98)
+	at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:145)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:130)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: freemarker.template.TemplateNotFoundException: Template not found for name "spark/partials/exceptıon.ftl".
+The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
+	at freemarker.template.Configuration.getTemplate(Configuration.java:2869)
+	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883)
+	at freemarker.core.Include.accept(Include.java:162)
+	... 60 more
+2022-06-22 11:30:39 INFO  Log4j:9 - Test is Starting...
+2022-06-22 11:30:42 INFO  Log4j:19 - checking visiblity of By.className: main-header-logo element
+2022-06-22 11:30:42 INFO  Log4j:19 - wait to presence elements list of By.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:30:42 INFO  Log4j:19 - clickingBy.cssSelector: #cookieseal-banner > div > button:nth-child(3)
+2022-06-22 11:30:42 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:30:42 INFO  Log4j:19 - wait to presence element which By.className: dropdown-label
+2022-06-22 11:30:42 INFO  Log4j:19 - clickingBy.className: dropdown-label
+2022-06-22 11:30:42 INFO  Log4j:19 - checking visiblity of By.name: email element
+2022-06-22 11:30:44 INFO  Log4j:19 - typing emrecndn9@gmail.com into By.name: email
+2022-06-22 11:30:44 INFO  Log4j:19 - wait to presence element which By.name: email
+2022-06-22 11:30:44 INFO  Log4j:19 - findingBy.name: email
+2022-06-22 11:30:44 INFO  Log4j:19 - checking visiblity of By.name: password element
+2022-06-22 11:30:44 INFO  Log4j:19 - typing Ee1234012400! into By.name: password
+2022-06-22 11:30:44 INFO  Log4j:19 - wait to presence element which By.name: password
+2022-06-22 11:30:44 INFO  Log4j:19 - findingBy.name: password
+2022-06-22 11:30:44 INFO  Log4j:19 - checking element By.className: dropdown-labelwith Hesabım
+2022-06-22 11:30:44 INFO  Log4j:19 - findingBy.className: dropdown-label
+2022-06-22 11:30:44 INFO  Log4j:19 - wait to presence elements list of By.className: dropdown-label
+2022-06-22 11:30:44 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:30:44 INFO  Log4j:19 - focusing element By.className: menu-header-item__titlewith KADIN
+2022-06-22 11:30:44 INFO  Log4j:19 - findingBy.className: menu-header-item__title
+2022-06-22 11:30:44 INFO  Log4j:19 - wait to presence elements list of By.className: menu-header-item__title
+2022-06-22 11:30:44 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:30:44 INFO  Log4j:19 - wait to presence element which By.className: menu-header-item__title
+2022-06-22 11:30:44 INFO  Log4j:19 - checking element By.className: zone-item__anchorwith Bluz
+2022-06-22 11:30:44 INFO  Log4j:19 - findingBy.className: zone-item__anchor
+2022-06-22 11:30:44 INFO  Log4j:19 - wait to presence elements list of By.className: zone-item__anchor
+2022-06-22 11:30:44 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:30:46 INFO  Log4j:19 - clicking element By.className: zone-item__anchorwith Bluz
+2022-06-22 11:30:46 INFO  Log4j:19 - findingBy.className: zone-item__anchor
+2022-06-22 11:30:46 INFO  Log4j:19 - wait to presence elements list of By.className: zone-item__anchor
+2022-06-22 11:30:46 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:30:47 INFO  Log4j:19 - checking visiblity of By.className: collapsible-filter-container__content-area--size-filter element
+2022-06-22 11:30:47 INFO  Log4j:19 - wait to presence element which By.className: collapsible-filter-container__content-area--size-filter
+2022-06-22 11:30:47 INFO  Log4j:19 - findingBy.className: collapsible-filter-container__content-area--size-filter
+2022-06-22 11:30:47 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:30:47 INFO  Log4j:19 - focusing element By.className: filter-option__textwith M
+2022-06-22 11:30:47 INFO  Log4j:19 - findingBy.className: filter-option__text
+2022-06-22 11:30:47 INFO  Log4j:19 - wait to presence elements list of By.className: filter-option__text
+2022-06-22 11:30:47 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:30:47 INFO  Log4j:19 - wait to presence element which By.className: filter-option__text
+2022-06-22 11:30:47 INFO  Log4j:19 - finding first element of By.className: filter-option__text
+2022-06-22 11:30:47 INFO  Log4j:19 - findingBy.className: filter-option__text
+2022-06-22 11:30:47 INFO  Log4j:19 - wait to presence elements list of By.className: filter-option__text
+2022-06-22 11:30:47 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:30:47 INFO  Log4j:19 - wait to presence element which By.className: filter-option__text
+2022-06-22 11:30:48 INFO  Log4j:19 - wait to presence element which By.className: collapsible-filter-container__content-area--color-filter
+2022-06-22 11:30:48 INFO  Log4j:19 - findingBy.className: collapsible-filter-container__content-area--color-filter
+2022-06-22 11:30:48 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:30:48 INFO  Log4j:19 - checking element By.className: color-filter-option__textwith Siyah
+2022-06-22 11:30:48 INFO  Log4j:19 - findingBy.className: color-filter-option__text
+2022-06-22 11:30:48 INFO  Log4j:19 - wait to presence elements list of By.className: color-filter-option__text
+2022-06-22 11:30:48 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:30:48 INFO  Log4j:19 - wait to presence element which By.className: color-filter-option__text
+2022-06-22 11:30:48 INFO  Log4j:19 - clicking element By.className: color-filter-option__textwith Siyah
+2022-06-22 11:30:48 INFO  Log4j:19 - findingBy.className: color-filter-option__text
+2022-06-22 11:30:48 INFO  Log4j:19 - wait to presence elements list of By.className: color-filter-option__text
+2022-06-22 11:30:48 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:30:48 INFO  Log4j:19 - checking visiblity of By.className: product-image__image element
+2022-06-22 11:30:49 INFO  Log4j:19 - checking visiblity of By.className: product-image__image element
+2022-06-22 11:30:49 INFO  Log4j:19 - finding first element of By.className: product-image__image
+2022-06-22 11:30:49 INFO  Log4j:19 - wait to presence elements list of By.className: product-image__image
+2022-06-22 11:30:52 INFO  Log4j:19 - checking visiblity of By.cssSelector: .col-xs-7 div element
+2022-06-22 11:30:52 INFO  Log4j:19 - finding first element of By.cssSelector: .col-xs-7 div
+2022-06-22 11:30:52 INFO  Log4j:19 - wait to presence elements list of By.cssSelector: .col-xs-7 div
+2022-06-22 11:30:53 INFO  Log4j:19 - findingBy.className: basket-discount
+2022-06-22 11:30:53 INFO  Log4j:19 - wait to presence elements list of By.className: basket-discount
+2022-06-22 11:31:13 INFO  Log4j:19 - checking element By.cssSelector: .option-size awith M
+2022-06-22 11:31:13 INFO  Log4j:19 - findingBy.cssSelector: .option-size a
+2022-06-22 11:31:13 INFO  Log4j:19 - wait to presence elements list of By.cssSelector: .option-size a
+2022-06-22 11:31:13 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:31:13 INFO  Log4j:19 - wait to presence element which By.cssSelector: .option-size a
+2022-06-22 11:31:13 INFO  Log4j:19 - clicking element By.cssSelector: .option-size awith M
+2022-06-22 11:31:13 INFO  Log4j:19 - findingBy.cssSelector: .option-size a
+2022-06-22 11:31:13 INFO  Log4j:19 - wait to presence elements list of By.cssSelector: .option-size a
+2022-06-22 11:31:13 INFO  Log4j:19 - Scroll to  class org.openqa.selenium.remote.RemoteWebElement
+2022-06-22 11:31:13 INFO  Log4j:19 - checking visiblity of By.id: pd_add_to_cart element
+2022-06-22 11:31:13 INFO  Log4j:19 - clickingBy.id: pd_add_to_cart
+2022-06-22 11:31:13 INFO  Log4j:19 - checking visiblity of By.id: shopping-cart element
+2022-06-22 11:31:13 INFO  Log4j:19 - clickingBy.id: shopping-cart
+2022-06-22 11:31:15 INFO  Log4j:19 - getting By.className: rd-cart-item-code text
+2022-06-22 11:31:15 INFO  Log4j:19 - wait to presence element which By.className: rd-cart-item-code
+2022-06-22 11:31:15 INFO  Log4j:19 - findingBy.className: rd-cart-item-code
+2022-06-22 11:31:15 INFO  Log4j:19 - getting By.cssSelector: .price-info-area > div:nth-child(4) > div:nth-child(1) > span:nth-child(2) text
+2022-06-22 11:31:15 INFO  Log4j:19 - wait to presence element which By.cssSelector: .price-info-area > div:nth-child(4) > div:nth-child(1) > span:nth-child(2)
+2022-06-22 11:31:15 INFO  Log4j:19 - findingBy.cssSelector: .price-info-area > div:nth-child(4) > div:nth-child(1) > span:nth-child(2)
+2022-06-22 11:31:16 INFO  Log4j:19 - getting By.className: rd-cart-item-color text
+2022-06-22 11:31:16 INFO  Log4j:19 - wait to presence element which By.className: rd-cart-item-color
+2022-06-22 11:31:16 INFO  Log4j:19 - findingBy.className: rd-cart-item-color
+2022-06-22 11:31:16 INFO  Log4j:19 - getting By.className: rd-cart-item-size text
+2022-06-22 11:31:16 INFO  Log4j:19 - wait to presence element which By.className: rd-cart-item-size
+2022-06-22 11:31:16 INFO  Log4j:19 - findingBy.className: rd-cart-item-size
+2022-06-22 11:31:16 INFO  Log4j:19 - getting By.className: item-quantity-input text
+2022-06-22 11:31:16 INFO  Log4j:19 - wait to presence element which By.className: item-quantity-input
+2022-06-22 11:31:16 INFO  Log4j:19 - findingBy.className: item-quantity-input
+2022-06-22 11:31:16 INFO  Log4j:19 - finding first element of By.className: main-button
+2022-06-22 11:31:16 INFO  Log4j:19 - wait to presence elements list of By.className: main-button
+2022-06-22 11:31:16 INFO  Log4j:19 - checking visiblity of By.className: deliveryTypeImg element
+2022-06-22 11:31:37 INFO  Log4j:14 - Test is Ending...
+2022-06-22 11:31:38 ERROR runtime:60 - Error executing FreeMarker template
+FreeMarker template error:
+Template inclusion failed (for parameter value "partials/exceptıon.ftl"):
+Template not found for name "spark/partials/exceptıon.ftl".
+The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #include "partials/${view.toString()}...  [in template "spark/spark.spa.ftl" at line 27, column 36]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core._MiscTemplateException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.Include.accept(Include.java:164)
+	at freemarker.core.Environment.visit(Environment.java:370)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:334)
+	at freemarker.core.Environment.visit(Environment.java:340)
+	at freemarker.core.Environment.process(Environment.java:313)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.writeTemplate(FreemarkerTemplate.java:45)
+	at com.aventstack.extentreports.reporter.AbstractFileReporter.processTemplate(AbstractFileReporter.java:74)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter.flush(ExtentSparkReporter.java:149)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$100(ExtentSparkReporter.java:27)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:121)
+	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:113)
+	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310)
+	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226)
+	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83)
+	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85)
+	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:279)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.finishReport(ExtentCucumberAdapter.java:300)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.access$600(ExtentCucumberAdapter.java:62)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:136)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:133)
+	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
+	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
+	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
+	at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(CucumberExecutionContext.java:111)
+	at io.cucumber.core.runtime.CucumberExecutionContext.finishTestRun(CucumberExecutionContext.java:98)
+	at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:145)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:130)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: freemarker.template.TemplateNotFoundException: Template not found for name "spark/partials/exceptıon.ftl".
+The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
+	at freemarker.template.Configuration.getTemplate(Configuration.java:2869)
+	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883)
+	at freemarker.core.Include.accept(Include.java:162)
+	... 60 more
