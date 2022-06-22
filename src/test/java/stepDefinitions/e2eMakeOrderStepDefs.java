@@ -22,7 +22,7 @@ public class e2eMakeOrderStepDefs {
     }
     @And("click login button")
     public void clickLoginButton() {
-        //loginPage.clickLogin();
+        loginPage.clickLogin();
 
     }
 
