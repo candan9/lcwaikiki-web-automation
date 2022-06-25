@@ -3,19 +3,25 @@ package util;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class DriverFactory {
     static WebDriver driver;
     static Properties properties;
+
     public static WebDriver initialize_Driver(String browser){
         properties = ConfigReader.getProperties();
 
         if (browser.equals("Chrome")) {
+            //Setting options to avoid automation detection
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--disable-blink-features=AutomationControlled"); //Removes the detection
             WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver();
+            driver = new ChromeDriver(options);
         } else if (browser.equals("Firefox")) {
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
@@ -36,6 +42,4 @@ public class DriverFactory {
     public static WebDriver getDriver(){
         return driver;
     }
-
-
 }

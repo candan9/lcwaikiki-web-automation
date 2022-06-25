@@ -20,10 +20,10 @@ public class e2eMakeOrderStepDefs {
     public void shouldSeeTitleNext(String title) {
         homePage.assertTitle(title);
     }
+
     @And("click login button")
     public void clickLoginButton() {
         loginPage.clickLogin();
-
     }
 
     @And("type {string} in password input")
@@ -39,10 +39,12 @@ public class e2eMakeOrderStepDefs {
     @Then("user see logged in that {string} on top of page")
     public void userSeeLoggedInThatOnTopOfPage(String myAccount) {
         homePage.checkUserLoggedIn(myAccount);
+
     }
 
     @When("focus {string} category")
     public void focusCategory(String categoryName) {
+        homePage.checkHomePage();
         homePage.focusCategory(categoryName);
     }
 
@@ -92,12 +94,14 @@ public class e2eMakeOrderStepDefs {
         paymentPage.clickDeliveryAddress();
         paymentPage.clickPayWithCreditCard();
         paymentPage.creditCardModalAppear();
+        paymentPage.assertPaymemtUrl();
         paymentPage.nameInputAppear();
         paymentPage.cardNumberInputAppear();
         paymentPage.monthSelectAppear();
         paymentPage.yearSelectAppear();
         paymentPage.cvvInputAppear();
     }
+
     @When("click {string} button to navigate login page")
     public void clickButtonToNavigateLoginPage(String loginButton) {
         homePage.clickGoToLogin(loginButton);

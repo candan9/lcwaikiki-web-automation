@@ -6,7 +6,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
 import java.util.List;
 
 public class ElementHelper {
@@ -28,9 +27,9 @@ public class ElementHelper {
         Log4j.info("finding"+key.toString());
         List<WebElement> elements = presenceElements(key);
         WebElement elementHold = null;
-        boolean find;
         for (WebElement element : elements) {
-            if (element.isDisplayed()) {
+            if (element.isDisplayed() && element.isEnabled()) {
+                wait.until(ExpectedConditions.elementToBeClickable(element));
                 return element;
             }
         }
@@ -41,11 +40,11 @@ public class ElementHelper {
      * @param key
      */
     public WebElement findElement(By key) {
-
         WebElement element = presenceElement(key);
         Log4j.info("finding"+key.toString());
         return element;
     }
+
     /**
      * @param key
      * @return
@@ -56,7 +55,25 @@ public class ElementHelper {
         scrollToElement(elements.get(0));
         return elements;
     }
+    public WebElement findElementWithText(By key,String text) {
+        Log4j.info("finding element "+key.toString()+" with "+text);
+        boolean find = false;
+        WebElement elementHold=null;
+        List<WebElement> elements = findElements(key);
+        for (WebElement element : elements) {
+            if (element.getText().equals(text)) {
+                wait.until(ExpectedConditions.elementToBeClickable(element));
+                find=true;
+                return  element;
+            }
+        }
+        Assert.assertEquals(true, find);
+        return elementHold;
+    }
 
+    public void assertUrl(String currentUrl){
+        Assert.assertEquals(currentUrl,driver.getCurrentUrl());
+    }
     /**
      * @param key
      */
@@ -88,6 +105,7 @@ public class ElementHelper {
             }
         }
     }
+
     /**
      * @param key
      * @param text
@@ -125,6 +143,7 @@ public class ElementHelper {
         wait.until(ExpectedConditions.presenceOfElementLocated(key));
         return true;
     }
+
     /**
      * @param key
      * @return
@@ -136,6 +155,7 @@ public class ElementHelper {
             return false;
         }
     }
+
     /**
      *
      * @param key
@@ -184,6 +204,7 @@ public class ElementHelper {
         List<WebElement> elements = findElements(key);
         for (WebElement element : elements) {
             if (element.getText().equals(text)) {
+                wait.until(ExpectedConditions.elementToBeClickable(element));
                 element.click();
                 find = true;
                 break;
@@ -278,6 +299,7 @@ public class ElementHelper {
         Log4j.info("finding first element of "+key.toString());
         List<WebElement> elements = presenceElements(key);
         WebElement element = elements.get(0);
+        wait.until(ExpectedConditions.elementToBeClickable(element));
         return element;
     }
 
@@ -312,7 +334,7 @@ public class ElementHelper {
      * @param element
      */
     public void scrollToElement(WebElement element) {
-        Log4j.info("Scroll to  "+element.getClass());
+        Log4j.info("Scroll to "+element.getClass());
         String scrollElementIntoMiddle = "var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);"
                 + "var elementTop = arguments[0].getBoundingClientRect().top;"
                 + "window.scrollBy(0, elementTop-(viewPortHeight/2));";

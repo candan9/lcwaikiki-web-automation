@@ -6,11 +6,10 @@ import io.cucumber.testng.CucumberOptions;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 
-
 @CucumberOptions(
         features = {"src/test/java/features"},
         glue = {"stepDefinitions", "util"},
-        tags = "@Regression",
+        tags = "@E2e",
         plugin = {
                 "summary", "pretty", "html:Reports/CucumberReport/Reports.html",
                 "json:Reports/CucumberReport/Report",
@@ -18,6 +17,7 @@ import org.testng.annotations.*;
         }
 )
 public class runner extends AbstractTestNGCucumberTests {
+
     static WebDriver driver = DriverFactory.getDriver();
 
     @BeforeSuite

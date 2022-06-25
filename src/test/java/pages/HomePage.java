@@ -1,9 +1,10 @@
 package pages;
 
+import lombok.SneakyThrows;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.FluentWait;
 import util.ElementHelper;
 
 public class HomePage {
@@ -16,13 +17,13 @@ public class HomePage {
     By btn_accept_cookies= By.cssSelector("#cookieseal-banner > div > button:nth-child(3)");
 
     WebDriver driver;
-    WebDriverWait wait;
     ElementHelper elementHelper;
     Actions action;
+    FluentWait wait ;
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, 10);
+        this.wait = new FluentWait(driver);
         this.elementHelper = new ElementHelper(driver);
         this.action = new Actions(driver);
     }
@@ -40,10 +41,13 @@ public class HomePage {
         elementHelper.checkElementVisible(main_logo);
     }
 
+    @SneakyThrows
     public void checkUserLoggedIn(String myAccount) {
         elementHelper.checkElementWithText(section_login,myAccount);
+        Thread.sleep(2000);
     }
     public void focusCategory(String categoryName) {
+        elementHelper.checkElementWithText(section_category,categoryName);
         elementHelper.focusElementWithText(section_category,categoryName);
     }
 

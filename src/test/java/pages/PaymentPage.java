@@ -8,13 +8,14 @@ import util.ElementHelper;
 
 public class PaymentPage {
 
+    String payment_url="https://www.lcwaikiki.com/tr-TR/TR/checkout#odeme";
     By card_delivery_type= By.className("deliveryTypeImg");
     By card_payment_type = By.className("creditCardImg");
     By modal_credit_card = By.className("creditCardModalView");
-    By input_name = By.xpath("\\input[@tabindex='1']");
-    By input_card_number = By.xpath("\\input[@tabindex='2']");
-    By select_month = By.xpath("\\input[@tabindex='3']");
-    By select_year = By.xpath("\\input[@tabindex='4']");
+    By input_name = By.xpath("//input[@tabindex='1']");
+    By input_card_number = By.xpath("//input[@tabindex='2']");
+    By select_month = By.xpath("//input[@tabindex='3']");
+    By select_year = By.xpath("//input[@tabindex='4']");
     By input_cvv = By.className("cvvmaskeddisc");
     WebDriver driver;
     WebDriverWait wait;
@@ -31,6 +32,10 @@ public class PaymentPage {
     public void clickDeliveryAddress() {
         elementHelper.checkElementVisible(card_delivery_type);
         elementHelper.findFirstElement(card_delivery_type).click();
+    }
+
+    public void assertPaymemtUrl() {
+        elementHelper.assertUrl(payment_url);
     }
 
     public void clickPayWithCreditCard() {

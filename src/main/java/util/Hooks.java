@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 import java.util.Properties;
 
+
 public class Hooks {
 
     WebDriver driver;
@@ -29,7 +30,7 @@ public class Hooks {
     }
 
     @AfterStep
-    public void afterStep() {
+    public void afterStep(){
     }
 
     @After

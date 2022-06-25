@@ -1,7 +1,5 @@
 package util;
 
-import org.openqa.selenium.WebDriver;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;

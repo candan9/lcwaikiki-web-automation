@@ -42,8 +42,10 @@ public class ProductPage {
     }
 
     public void selectColor(String colorName) {
-        elementHelper.checkElementWithText(btn_color_option,colorName);
-        elementHelper.clickElementWithText(btn_color_option,colorName);
+        if(elementHelper.findElementEnable(btn_color_option).isDisplayed()){
+            elementHelper.checkElementWithText(btn_color_option,colorName);
+            elementHelper.clickElementWithText(btn_color_option,colorName);
+        }
     }
 
     public void selectSize(String sizeName) {
