@@ -55,6 +55,11 @@ public class ElementHelper {
         scrollToElement(elements.get(0));
         return elements;
     }
+
+    /**
+     * @param key
+     * @param text
+     */
     public WebElement findElementWithText(By key,String text) {
         Log4j.info("finding element "+key.toString()+" with "+text);
         boolean find = false;
@@ -71,6 +76,10 @@ public class ElementHelper {
         return elementHold;
     }
 
+    /**
+     * @param currentUrl
+     * @return
+     */
     public void assertUrl(String currentUrl){
         Assert.assertEquals(currentUrl,driver.getCurrentUrl());
     }

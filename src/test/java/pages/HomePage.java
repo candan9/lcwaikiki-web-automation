@@ -29,22 +29,19 @@ public class HomePage {
     }
 
     public void assertTitle(String title) {
-        elementHelper.presenceElement(section_login);
+        elementHelper.checkElementWithText(section_login,title);
     }
 
     public void clickGoToLogin(String title) {
-        elementHelper.presenceElement(section_login);
-        elementHelper.click(section_login);
+        elementHelper.findElementWithText(section_login,title).click();
     }
 
     public void checkHomePage() {
         elementHelper.checkElementVisible(main_logo);
     }
 
-    @SneakyThrows
     public void checkUserLoggedIn(String myAccount) {
         elementHelper.checkElementWithText(section_login,myAccount);
-        Thread.sleep(2000);
     }
     public void focusCategory(String categoryName) {
         elementHelper.checkElementWithText(section_category,categoryName);

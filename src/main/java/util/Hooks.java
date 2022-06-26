@@ -1,6 +1,7 @@
 package util;
 
 import io.cucumber.java.*;
+import lombok.SneakyThrows;
 import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 import java.util.Properties;
@@ -29,8 +30,10 @@ public class Hooks {
     public void beforeStep() {
     }
 
+    @SneakyThrows
     @AfterStep
     public void afterStep(){
+        Thread.sleep(1000);
     }
 
     @After
